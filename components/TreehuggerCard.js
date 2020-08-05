@@ -58,7 +58,7 @@ export default function TreehuggerCard({ boards, props }) {
     const [classicModal, setClassicModal] = React.useState(false);
 
     return (
-        <Card style={{ width: "20em" }}>
+        <Card style={{ width: "20em", marginLeft: "17%" }}>
             <img
                 style={{ height: "15%", width: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
                 src={TreehuggerLogo}

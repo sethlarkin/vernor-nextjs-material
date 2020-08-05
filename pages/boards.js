@@ -96,7 +96,7 @@ export default function ProfilePage({ props, allBoardsData }) {
               justify="center"
               alignItems="center"
             >
-              
+              <BoardCardSection />
             </GridContainer>
           </div>
         </div>
