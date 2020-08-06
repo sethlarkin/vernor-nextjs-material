@@ -43,82 +43,82 @@ export default function BoardCard(props) {
   const [classicModal, setClassicModal] = React.useState(false);
 
   return (
-    <Card style={{ width: "20em", marginLeft: "17%" }}>
+    <div key={props.id}>
+      <Card style={{ width: "20em", marginLeft: "17%", marginRight:"26px" }}>
       <img
-        style={{ height: "30%", width: "80%", display: "block", marginLeft: "auto", marginRight: "auto" }}
-        src={props.logo}
-        alt="Barracuda"
-      />
-      <img
-        style={{ height: "30%", width: "60%", display: "block", marginLeft: "auto", marginRight: "auto" }}
-        src={props.image}
-        alt="Barracuda"
-      />
-      <CardBody>
+          style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
+          src={props.image}
+          alt="BarracBoard Imageuda"
+        />
+        <img
+          style={{ height: "30%", width: "34%", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "6px" }}
+          src={props.logo}
+          alt="Board Logo"
+        />
+        <CardBody>
 
-        <h4 className={classes.cardTitle}>{props.name}</h4>
-        <h2>{props.dims}</h2>
-        {/* <p>{surfboard.Barracuda.description}</p>
-                <GridContainer>
-              <GridItem xs={12} sm={12} md={6} lg={4}>
-                <Button
-                  color="primary"
-                  block
-                  onClick={() => setClassicModal(true)}
-                >
-                  MORE
+          <h4 className={classes.cardTitle}>{props.name}</h4>
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={6} lg={4}>
+              <Button
+                color="primary"
+                block
+                onClick={() => setClassicModal(true)}
+              >
+                MORE
                 </Button>
-                <Dialog
-                  classes={{
-                    root: classes.center,
-                    paper: classes.modal
-                  }}
-                  open={classicModal}
-                  TransitionComponent={Transition}
-                  keepMounted
-                  onClose={() => setClassicModal(false)}
-                  aria-labelledby="classic-modal-slide-title"
-                  aria-describedby="classic-modal-slide-description"
+              <Dialog
+                classes={{
+                  root: classes.center,
+                  paper: classes.modal
+                }}
+                open={classicModal}
+                TransitionComponent={Transition}
+                keepMounted
+                onClose={() => setClassicModal(false)}
+                aria-labelledby="classic-modal-slide-title"
+                aria-describedby="classic-modal-slide-description"
+              >
+                <DialogTitle
+                  id="classic-modal-slide-title"
+                  disableTypography
+                  className={classes.modalHeader}
                 >
-                  <DialogTitle
-                    id="classic-modal-slide-title"
-                    disableTypography
-                    className={classes.modalHeader}
+                  <IconButton
+                    className={classes.modalCloseButton}
+                    key="close"
+                    aria-label="Close"
+                    color="inherit"
+                    onClick={() => setClassicModal(false)}
                   >
-                    <IconButton
-                      className={classes.modalCloseButton}
-                      key="close"
-                      aria-label="Close"
-                      color="inherit"
-                      onClick={() => setClassicModal(false)}
-                    >
-                      <Close className={classes.modalClose} />
-                    </IconButton>
-                    <h4 className={classes.modalTitle}>Modal title</h4>
-                  </DialogTitle>
-                  <DialogContent
-                    id="classic-modal-slide-description"
-                    className={classes.modalBody}
+                    <Close className={classes.modalClose} />
+                  </IconButton>
+                  <h4 className={classes.modalTitle}>Modal title</h4>
+                </DialogTitle>
+                <DialogContent
+                  id="classic-modal-slide-description"
+                  className={classes.modalBody}
+                >
+                  <p>{props.description}</p>
+                </DialogContent>
+                <DialogActions className={classes.modalFooter}>
+                  <Button color="transparent" simple>
+                    Nice Button
+                    </Button>
+                  <Button
+                    onClick={() => setClassicModal(false)}
+                    color="danger"
+                    simple
                   >
-                   <p>{surfboard.Barracuda.description}</p>
-                  </DialogContent>
-                  <DialogActions className={classes.modalFooter}>
-                    <Button color="transparent" simple>
-                      Nice Button
+                    Close
                     </Button>
-                    <Button
-                      onClick={() => setClassicModal(false)}
-                      color="danger"
-                      simple
-                    >
-                      Close
-                    </Button>
-                  </DialogActions>
-                </Dialog>
-              </GridItem>
-            </GridContainer> */}
-      </CardBody>
-    </Card>
+                </DialogActions>
+              </Dialog>
+            </GridItem>
+          </GridContainer>
+        </CardBody>
+      </Card>
+    </div>
   );
 }
 

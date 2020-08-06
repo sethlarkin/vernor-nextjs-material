@@ -14,32 +14,11 @@ import Button from "components/CustomButtons/Button.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
-import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
-
-import BoardCardSection from "components/BoardCardSection.js"
-import NewBoardCardSection from "components/NewBoardCardSection.js"
 
 import BoardCard from "components/BoardCard"
 
 import { getBoardData } from '../lib/board-data'
-
-
-import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
-
-import profile from "assets/img/faces/christian.jpg";
-
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 import profilePageStyles from "assets/jss/nextjs-material-kit/pages/profilePage.js";
 import { cardTitle } from "assets/jss/nextjs-material-kit.js";
@@ -77,35 +56,27 @@ export default function ProfilePage({ props, allBoardsData }) {
       />
       <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
 
-      <div>
-        {/* <h1>{allBoardsData.boards[0].name}</h1> */}
-      <h2>{boardData.boards[0].dims}</h2>
-        <ul>
-          {boardData.boards.map(({ name }) => (
-            <li>
-              {name}
-            </li>
-          ))}
-        </ul>
-      <BoardCard 
-      name={boardData.boards[0].name}
-      logo={boardData.boards[0].logo}
-      dims={boardData.boards[0].dims}
-      image={boardData.boards[0].img}
-      />  
-      </div>
-
       <div className={classNames(classes.main)}>
         <div>
           <div className={classes.container}>
-            <NewBoardCardSection></NewBoardCardSection>
             <GridContainer
               container
               direction="row"
               justify="center"
               alignItems="center"
             >
-              <BoardCardSection />
+              {boardData.boards.map(board => (
+                <div >
+                  <BoardCard
+                    name={board.name}
+                    logo={board.logo}
+                    dims={board.dims}
+                    image={board.img}
+                    description={board.description}
+                    id={board.id}
+                  />
+                </div>
+              ))}
             </GridContainer>
           </div>
         </div>
