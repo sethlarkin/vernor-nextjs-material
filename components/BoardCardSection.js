@@ -25,9 +25,7 @@ export default function BoardCardSection() {
             <GridItem xs={12} sm={12} md={4} >
                 <TreehuggerCard></TreehuggerCard>
             </GridItem>
-            <GridItem xs={12} sm={12} md={4} >
-                <BoardCard></BoardCard>
-            </GridItem>
+        
             <GridItem xs={12} sm={12} md={4} >
                 <MinisimmonsCard></MinisimmonsCard>
             </GridItem>

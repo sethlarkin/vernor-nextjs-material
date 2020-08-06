@@ -20,6 +20,8 @@ import Parallax from "components/Parallax/Parallax.js";
 import BoardCardSection from "components/BoardCardSection.js"
 import NewBoardCardSection from "components/NewBoardCardSection.js"
 
+import BoardCard from "components/BoardCard"
+
 import { getBoardData } from '../lib/board-data'
 
 
@@ -41,6 +43,8 @@ import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 import profilePageStyles from "assets/jss/nextjs-material-kit/pages/profilePage.js";
 import { cardTitle } from "assets/jss/nextjs-material-kit.js";
+
+import boardData from "../lib/boards.json"
 
 const styles = {
   ...profilePageStyles,
@@ -74,16 +78,21 @@ export default function ProfilePage({ props, allBoardsData }) {
       <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
 
       <div>
-        <h1>{allBoardsData.boards[0].name}</h1>
-
-        {/* <ul>
-          {allBoardsData.TreeHugger.map(({ name }) => (
-            <li className={utilStyles.listItem} key={id}>
+        {/* <h1>{allBoardsData.boards[0].name}</h1> */}
+      <h2>{boardData.boards[0].dims}</h2>
+        <ul>
+          {boardData.boards.map(({ name }) => (
+            <li>
               {name}
-
             </li>
           ))}
-        </ul> */}
+        </ul>
+      <BoardCard 
+      name={boardData.boards[0].name}
+      logo={boardData.boards[0].logo}
+      dims={boardData.boards[0].dims}
+      image={boardData.boards[0].img}
+      />  
       </div>
 
       <div className={classNames(classes.main)}>

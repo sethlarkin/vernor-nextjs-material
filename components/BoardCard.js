@@ -26,58 +26,39 @@ import GridItem from "components/Grid/GridItem.js";
 import { cardTitle } from "assets/jss/nextjs-material-kit.js";
 
 const styles = {
-    ...imagesStyles,
-    cardTitle,
+  ...imagesStyles,
+  cardTitle,
 };
 
-const surfboard = {
-    "Barracuda": {
-        "name": "Barracuda",
-        "type": "fish",
-        "description": "The Barracuda is our version of a high-performance four fin fish, with more \
-        short board feeling rails and a thinned out tail! This board glides like a fish and explodes \
-        and reacts like your normal short board. The quad-fin set up holds a higher line in the more",
-        "img":"assets/img/boards/main-barracuda.jpg",
-        "logo": "assets/img/board-models/barracudaLogo.png",
-    },
-    "TreeHugger": {
-        "name": "Tree Hugger",
-        "img":"assets/img/boards/main-treehugger-2019.jpg",
-        "logo":"assets/img/board-models/TreeHuggerLogo.jpg",
-        "description": "The Tree Hugger starts with a “Simmons Like” entry that provides extremely \
-        fast paddling into the wave. The shape of the board lends itself to high performance surfing, \
-        with a nod to the retro inspired hipsters. We suggest riding the board between 6’6 and 8’0 \
-        and in a variety of conditions (between 2’ and 8’)."
-    },
-}
+
 
 const Transition = React.forwardRef(function Transition(props, ref) {
-    return <Slide direction="down" ref={ref} {...props} />;
-  });
-  
+  return <Slide direction="down" ref={ref} {...props} />;
+});
+
 const useStyles = makeStyles(styles);
 
-export default function BoardCard({ boards, props }) {
-    const classes = useStyles();
-    const [classicModal, setClassicModal] = React.useState(false);
+export default function BoardCard(props) {
+  const classes = useStyles();
+  const [classicModal, setClassicModal] = React.useState(false);
 
-    return (
-        <Card style={{ width: "20em", marginLeft: "17%" }}>
-            <img
-                style={{ height: "30%", width: "80%", display: "block", marginLeft: "auto", marginRight: "auto" }}
-                src={barracudaLogo}
-                alt="Barracuda"
-            />
-            <img
-                style={{ height: "30%", width: "60%", display: "block", marginLeft: "auto", marginRight: "auto" }}
-                src={barracudaBoard}
-                alt="Barracuda"
-            />
-            <CardBody>
-                <h1>{boards}</h1>
+  return (
+    <Card style={{ width: "20em", marginLeft: "17%" }}>
+      <img
+        style={{ height: "30%", width: "80%", display: "block", marginLeft: "auto", marginRight: "auto" }}
+        src={props.logo}
+        alt="Barracuda"
+      />
+      <img
+        style={{ height: "30%", width: "60%", display: "block", marginLeft: "auto", marginRight: "auto" }}
+        src={props.image}
+        alt="Barracuda"
+      />
+      <CardBody>
 
-                <h4 className={classes.cardTitle}>{Object.keys(surfboard)[0]}</h4>
-                <p>{surfboard.Barracuda.description}</p>
+        <h4 className={classes.cardTitle}>{props.name}</h4>
+        <h2>{props.dims}</h2>
+        {/* <p>{surfboard.Barracuda.description}</p>
                 <GridContainer>
               <GridItem xs={12} sm={12} md={6} lg={4}>
                 <Button
@@ -135,28 +116,19 @@ export default function BoardCard({ boards, props }) {
                   </DialogActions>
                 </Dialog>
               </GridItem>
-            </GridContainer>
-            </CardBody>
-        </Card>
-    );
+            </GridContainer> */}
+      </CardBody>
+    </Card>
+  );
 }
 
 
 export async function getStaticProps(context) {
 
-    // const boards = {
-    //   "barracuda": "board",
-
-    // }
-
-    // const boards = "hello"
-
-    console.log("KNOIJOIJN")
-
-    return {
-        props: {
-            boards, props
-        },
-    }
+  return {
+    props: {
+      props
+    },
+  }
 }
 
