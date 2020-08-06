@@ -44,8 +44,8 @@ export default function BoardCard(props) {
 
   return (
     <div key={props.id}>
-      <Card style={{ width: "20em", marginLeft: "17%", marginRight:"26px" }}>
-      <img
+      <Card style={{ width: "20em", marginLeft: "17%", marginRight: "26px" }}>
+        <img
           style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
           src={props.image}
           alt="BarracBoard Imageuda"
@@ -84,7 +84,7 @@ export default function BoardCard(props) {
                   disableTypography
                   className={classes.modalHeader}
                 >
-                  <IconButton
+                  {/* <IconButton
                     className={classes.modalCloseButton}
                     key="close"
                     aria-label="Close"
@@ -92,8 +92,22 @@ export default function BoardCard(props) {
                     onClick={() => setClassicModal(false)}
                   >
                     <Close className={classes.modalClose} />
-                  </IconButton>
-                  <h4 className={classes.modalTitle}>Modal title</h4>
+                  </IconButton> */}
+                  <div style={{ display: "flex" }}>
+                    <img
+                      style={{flex: "6%", padding: "6px"}}
+                      src={props.image}
+                      alt="Board Image"
+                    />
+                    <img
+                      style={{ flex: "6%", padding: "6px", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "6px" }}
+                      src={props.logo}
+                      alt="Board Logo"
+                    />
+                  </div>
+
+
+                  <h4 className={classes.modalTitle}><strong>{props.name}</strong></h4>
                 </DialogTitle>
                 <DialogContent
                   id="classic-modal-slide-description"
@@ -102,9 +116,6 @@ export default function BoardCard(props) {
                   <p>{props.description}</p>
                 </DialogContent>
                 <DialogActions className={classes.modalFooter}>
-                  <Button color="transparent" simple>
-                    Nice Button
-                    </Button>
                   <Button
                     onClick={() => setClassicModal(false)}
                     color="danger"
