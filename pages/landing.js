@@ -32,7 +32,6 @@ export default function LandingPage(props) {
   return (
     <div>
       <Header
-        color="transparent"
         routes={dashboardRoutes}
         brand="NextJS Material Kit"
         rightLinks={<HeaderLinks />}
@@ -43,19 +42,19 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image={require("assets/img/vernor-logo.png")}>
-        <div className={classes.container}>
+      <Parallax  responsive image={require("assets/img/vernor-logo.png")}>
+        <div style={{color: "black"}} className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Surf Story Starts With Us.</h1>
+              <h1 style={{color: "black"}} className={classes.title}>Your Surf Story Starts With Us.</h1>
               <h4>
-              From beginner to professional, Vernor Surfboards has a wide range of boards to choose from.
+              <strong>From beginner to professional, Vernor Surfboards has a wide range of boards to choose from.</strong>
               </h4>
               <br />
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                href="https://www.youtube.com/watch?v=OM6Ln27qjCs"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -66,13 +65,7 @@ export default function LandingPage(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container}>
-          <ProductSection />
-          <TeamSection />
-          <WorkSection />
-        </div>
-      </div>
+     
       <Footer />
     </div>
   );
