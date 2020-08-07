@@ -49,7 +49,7 @@ export default function HeaderLinks(props) {
         </Button>
       </ListItem>
 
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Button
           href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
           color="transparent"
@@ -58,11 +58,11 @@ export default function HeaderLinks(props) {
         >
           <InsertEmoticonSharp className={classes.icons} /> Stoke
         </Button>
-      </ListItem>
+      </ListItem> */}
 
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="/"
           color="transparent"
           target="_self"
           className={classes.navLink}

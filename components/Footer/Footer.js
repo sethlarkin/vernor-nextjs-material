@@ -31,55 +31,37 @@ export default function Footer(props) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
+            
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/?ref=njsmk-footer"
+                href="/"
                 className={classes.block}
-                target="_blank"
-              >
-                Creative Tim
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/presentation?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
+                target="_self"
               >
                 About us
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://blog.creative-tim.com/?ref=njsmk-footer"
+                href="/"
                 className={classes.block}
-                target="_blank"
+                target="_self"
               >
                 Blog
               </a>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
-            </ListItem>
+            
           </List>
         </div>
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          <Favorite className={classes.icon} />
           <a
-            href="https://www.creative-tim.com?ref=njsmk-footer"
+            href="/"
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
-          </a>{" "}
-          for a better web.
+          </a>
         </div>
       </div>
     </footer>
