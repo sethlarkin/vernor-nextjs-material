@@ -95,12 +95,12 @@ export default function BoardCard(props) {
                   </IconButton> */}
                   <div style={{ display: "flex" }}>
                     <img
-                      style={{ width: "30%", padding: "6px", marginTop: "10px" }}
+                      style={{ flex: 1, padding: "6px", marginTop: "10px" }}
                       src={props.image}
                       alt="Board Image"
                     />
                     <img
-                      style={{ height: "200px", padding: "6px", display: "block", marginLeft:"20px", marginTop: "10px" }}
+                      style={{ flex: 1, padding: "6px", display: "block", marginLeft:"20px", marginTop: "10px" }}
                       src={props.logo}
                       alt="Board Logo"
                     />
