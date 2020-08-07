@@ -30,7 +30,7 @@ export default function HeaderLinks(props) {
         <Button
           href="/boards"
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         >
           <AlbumSharp className={classes.icons} /> Boards
@@ -42,7 +42,7 @@ export default function HeaderLinks(props) {
         <Button
           href="/tech"
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         >
           <BuildSharp className={classes.icons} /> Tech
@@ -53,7 +53,7 @@ export default function HeaderLinks(props) {
         <Button
           href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         >
           <InsertEmoticonSharp className={classes.icons} /> Stoke
@@ -64,7 +64,7 @@ export default function HeaderLinks(props) {
         <Button
           href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
           color="transparent"
-          target="_blank"
+          target="_self"
           className={classes.navLink}
         >
           <StoreSharp className={classes.icons} /> Get One
