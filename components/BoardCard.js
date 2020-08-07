@@ -43,8 +43,8 @@ export default function BoardCard(props) {
   const [classicModal, setClassicModal] = React.useState(false);
 
   return (
-    <div key={props.id}>
-      <Card style={{ width: "20em", marginLeft: "17%", marginRight: "26px" }}>
+    <div style={{padding: "10px"}}>
+      <Card style={{ width: "20em", marginLeft: "auto", marginRight: "auto" }}>
         <img
           style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
           src={props.image}
@@ -95,12 +95,12 @@ export default function BoardCard(props) {
                   </IconButton> */}
                   <div style={{ display: "flex" }}>
                     <img
-                      style={{flex: "6%", padding: "6px"}}
+                      style={{ width: "30%", padding: "6px", marginTop: "10px" }}
                       src={props.image}
                       alt="Board Image"
                     />
                     <img
-                      style={{ flex: "6%", padding: "6px", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "6px" }}
+                      style={{ height: "200px", padding: "6px", display: "block", marginLeft:"20px", marginTop: "10px" }}
                       src={props.logo}
                       alt="Board Logo"
                     />

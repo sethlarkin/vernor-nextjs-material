@@ -66,14 +66,13 @@ export default function ProfilePage({ props, allBoardsData }) {
               alignItems="center"
             >
               {boardData.boards.map(board => (
-                <div >
+                <div key={board.id}>
                   <BoardCard
                     name={board.name}
                     logo={board.logo}
                     dims={board.dims}
                     image={board.img}
                     description={board.description}
-                    id={board.id}
                   />
                 </div>
               ))}
