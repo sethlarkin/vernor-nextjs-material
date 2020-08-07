@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{"B+4s":function(n,o){},"Z+Tm":function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/getone",function(){return w("B+4s")}])}},[["Z+Tm",0]]]);
