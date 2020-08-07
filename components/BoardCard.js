@@ -113,7 +113,13 @@ export default function BoardCard(props) {
                   id="classic-modal-slide-description"
                   className={classes.modalBody}
                 >
-                  <p>{props.description}</p>
+                  <p><strong>{props.description}</strong></p>
+                <h6>Size Range: {props.dims.range}</h6>
+                <h6>Nose: {props.dims.Nose}</h6>
+                <h6>Middle: {props.dims.Middle}</h6>
+                <h6>Tail: {props.dims.Tail}</h6>
+                <h6>Thickness: {props.dims.Thickness}</h6>
+                <h6>Volume: {props.dims.Volume}</h6>
                 </DialogContent>
                 <DialogActions className={classes.modalFooter}>
                   <Button
