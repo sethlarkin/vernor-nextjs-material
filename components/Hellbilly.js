@@ -31,20 +31,7 @@ const styles = {
 };
 
 const BoardInfo = {
-    "name": "Hellbilly",
-    "description": "The story: I reached out to David \
-    telling him I needed a board that was specifically \
-    for low tide shorebreak. Something that paddled \
-    fast and was responsive enough for under the lip \
-    take offs, loose and manueverable to pump through \
-    barrels. My 5'10 is 3 inches thick. I asked for \
-    extra float to paddle fast and float me in a \
-    5mm suit. I also asked for this board to have \
-    David's special epoxy application with a round pin \
-    and 5 fin set up. The name the Hellbilly came from \
-    my love for the outdoors and outlaw country \
-    music. - Colin"
-};
+    
 
 
 const Transition = React.forwardRef(function Transition(props, ref) {
