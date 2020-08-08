@@ -1,8 +1,6 @@
 import React from "react";
 // material-ui components
 import { makeStyles } from "@material-ui/core/styles";
-import IconButton from "@material-ui/core/IconButton";
-import Close from "@material-ui/icons/Close";
 import Slide from "@material-ui/core/Slide";
 
 
@@ -12,8 +10,6 @@ import CardBody from "components/Card/CardBody.js";
 import Button from "components/CustomButtons/Button.js";
 
 import imagesStyles from "assets/jss/nextjs-material-kit/imagesStyles.js";
-import barracudaLogo from "assets/img/board-models/barracudaLogo.png";
-import barracudaBoard from "assets/img/boards/main-barracuda.jpg";
 
 import Dialog from "@material-ui/core/Dialog";
 import DialogTitle from "@material-ui/core/DialogTitle";
@@ -44,7 +40,7 @@ export default function BoardCard(props) {
 
   return (
     <div style={{padding: "10px"}}>
-      <Card style={{ width: "20em", marginLeft: "auto", marginRight: "auto" }}>
+      <Card style={{ width: "20em", marginLeft: "auto", marginRight: "auto", minHeight: "590px"}}>
         <img
           style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
           src={props.image}
