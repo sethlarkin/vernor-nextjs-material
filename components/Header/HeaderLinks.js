@@ -62,7 +62,7 @@ export default function HeaderLinks(props) {
 
       <ListItem className={classes.listItem}>
         <Button
-          href="/"
+          href="/getone"
           color="transparent"
           target="_self"
           className={classes.navLink}
