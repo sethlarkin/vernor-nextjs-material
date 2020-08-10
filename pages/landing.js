@@ -42,12 +42,12 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax  responsive image={require("assets/img/vernor-logo.png")}>
-        <div style={{color: "black"}} className={classes.container}>
+      <Parallax  responsive image={require("public/img/4mile.jpeg")}>
+        <div style={{color: "black", display: "flex", justifyContent: "left"}} className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 style={{color: "black"}} className={classes.title}>Your Surf Story Starts With Us.</h1>
-              <h4>
+              <h4 style={{justifyContent: "right"}}>
               <strong>From beginner to professional, Vernor Surfboards has a wide range of boards to choose from.</strong>
               </h4>
               <br />

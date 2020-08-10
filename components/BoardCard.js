@@ -68,6 +68,7 @@ export default function BoardCard(props) {
                   root: classes.center,
                   paper: classes.modal
                 }}
+                style={{minHeight: "590px"}}
                 open={classicModal}
                 TransitionComponent={Transition}
                 keepMounted

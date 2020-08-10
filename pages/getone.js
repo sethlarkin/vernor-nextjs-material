@@ -57,27 +57,33 @@ export default function ProfilePage({ props, allBoardsData }) {
       <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
 
       <div className={classNames(classes.main)}>
-        <div>
-          <div className={classes.container}>
-            <GridContainer
-              container
-              direction="row"
-              justify="center"
-              alignItems="center"
-            >
-              {boardData.boards.map(board => (
-                <div key={board.id}>
-                  <BoardCard
-                    name={board.name}
-                    logo={board.logo}
-                    dims={board.dims}
-                    image={board.img}
-                    description={board.description}
-                  />
-                </div>
-              ))}
-            </GridContainer>
-          </div>
+        <div className={classes.container}>
+          <GridContainer
+            container
+            spacing={3}
+            justify="center"
+            alignItems="center"
+          >
+            <span>
+              <GridItem
+                xs={12}
+              >
+                <h4>Surfshop name</h4>
+                <p>111 address st, capi, ca 95050</p>
+                <a href="">www.surfshop.com</a>
+              </GridItem>
+              <GridItem>
+                <h4>Surfshop name</h4>
+                <p>111 address st, capi, ca 95050</p>
+                <a href="">www.surfshop.com</a>
+              </GridItem>
+              <GridItem>
+                <h4>Surfshop name</h4>
+                <p>111 address st, capi, ca 95050</p>
+                <a href="">www.surfshop.com</a>
+              </GridItem>
+            </span>
+          </GridContainer>
         </div>
       </div>
       <Footer />

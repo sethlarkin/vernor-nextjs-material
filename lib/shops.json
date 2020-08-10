@@ -1,0 +1,140 @@
+{
+    "shops": {
+        "california": [
+            {
+                "id": 1,
+                "name": "2 Mile Surf Shop",
+                "address": "22 Brighton ave. Bolinas, CA",
+                "phone": "415-868-0264",
+                "site": "www.2milesurf.com"
+            },
+            {
+                "id": 2,
+                "name": "Aqua Surf Shop",
+                "address": "2830 Sloat Blvd., San Francisco, CA",
+                "phone": "415-242-9283",
+                "site": "www.aquasurfshop.com"
+            },
+            {
+                "id": 3,
+                "name": "Live Water Surf Shop",
+                "address": "3448 Shoreline Hwy, Stinson Beach, CA",
+                "phone": "415-868-0333",
+                "site": "www.livewatersurfshop.com"
+            },
+            {
+                "id": 4,
+                "name": "On The Beach",
+                "address": "693 Lighthouse Ave, Monterey, CA",
+                "phone": "831-646-9283",
+                "site": "onthebeachsurfshop.com"
+            },
+            {
+                "id": 5,
+                "name": "Neighborhood Board Shop",
+                "address": "685 11th St, Arcata, CA 95521",
+                "phone": "707-822-7873",
+                "site": "www.theneighborhoodhumboldt.com"
+            },
+            {
+                "id": 6,
+                "name": "Sonlight Surf Shop",
+                "address": "575 Crespi Dr # 1, Pacifica, CA",
+                "phone": "(650) 359-5471",
+                "site": "www.sonlightsurfshop.com"
+            },
+            {
+                "id": 7,
+                "name": "Sunshine Freestyle",
+                "address": "443 Lighthouse Avenue, Monterey, CA ",
+                "phone": "(831) 375-5015",
+                "site": "www.sunshinefreestyle.com"
+            },
+            {
+                "id": 7,
+                "name": "Sunshine Freestyle",
+                "address": "443 Lighthouse Avenue, Monterey, CA ",
+                "phone": "(831) 375-5015",
+                "site": "www.sunshinefreestyle.com"
+            }
+        ],
+        "maryland": [
+            {
+                "id": 1,
+                "name": "Chauncey's Surf Shop",
+                "address": "2908 Coastal Highway, Ocean City, MD",
+                "phone": "410-289-7405",
+                "site": "www.chaunceyssurfshop.com"
+            },
+            {
+                "id": 2,
+                "name": "Chauncey's Surf Shop",
+                "address": "5309 Coastal Highway, Ocean City, MD",
+                "phone": "410-524-6005",
+                "site": "www.chaunceyssurfshop.com"
+            }
+        ],
+        "north_carolina": [
+            {
+                "id": 1,
+                "name": "AB Surf Shop",
+                "address": "515 West Fort Mason Road., Atlantic Beach NC",
+                "phone": "252-726-9382",
+                "site": "www.absurfshop.com"
+            },
+            {
+                "id": 2,
+                "name": "Aussie Island",
+                "address": "5101 Dunlea Ct., Wilmington, NC, 910-256-5454",
+                "phone": "(910)256-5454",
+                "site": "www.aussieisland.com"
+            },
+            {
+                "id": 3,
+                "name": "Aussie Island",
+                "address": "1 North Lumina Avenue, NC, 910-256-6789",
+                "phone": "(910)256-6789",
+                "site": "www.aussieisland.com"
+            },
+            {
+                "id": 4,
+                "name": "CB Surf Shop",
+                "address": "209 S. Lake Park Blvd., Carolina Beach, NC - 910-458-7005",
+                "phone": "910-458-7005",
+                "site": "cbsurfshop.blogspot.com/"
+            },
+            {
+                "id": 5,
+                "name": "REAL Watersports",
+                "address": "25706 North Carolina 12, Waves, NC 27982 - 252-987-6000",
+                "phone": "(866) REAL-548 ",
+                "site": "www.realwatersports.com"
+            },
+            {
+                "id": 6,
+                "name": "Whalebone Surf Shop",
+                "address": "2214 S. Croatan Hwy, Nags Head, NC - 252-441-6747",
+                "phone": "(877) 855-1975 ",
+                "site": "www.whalebonesurfshop.com"
+            }
+        ],
+        "south_carolina": [
+            {
+                "id": 1,
+                "name": "Parrot Surf Shop",
+                "address": "811 Coleman Blvd Mt. Pleasant, SC",
+                "phone": "843-884-1035",
+                "site": "www.parrotsurfshop.com"
+            }
+        ],
+        "texas": [
+            {
+                "id": 1,
+                "name": "DFW Surf",
+                "address": "2500 Fairway Drive., Grapevine, TX",
+                "phone": "214-497-7502",
+                "site": "www.dfwsurf.com"
+            }
+        ]
+    }
+}

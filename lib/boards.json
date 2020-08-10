@@ -12,7 +12,7 @@
                 "Middle": "21 5/8",
                 "Tail": "15 3/8",
                 "Thickness": "3\"",
-                "Volume": "(7'0\"): 46.5 liters (131 beers)"
+                "Volume": "(7'0\"): 46.5 liters (131 Dr Peppers)"
             }
         },
         {
@@ -27,7 +27,7 @@
                 "Middle": "20 5/8\"",
                 "Tail": "16\"",
                 "Thickness": "2 5/8\"",
-                "Volume": "(5'11\"): 33 liters (92.98 beers)"
+                "Volume": "(5'11\"): 33 liters (92.98 Dr Peppers)"
             }
         },
         {
@@ -42,7 +42,7 @@
                 "Middle": "20\"",
                 "Tail": "14 1/4\"",
                 "Thickness": "2 1/4\"",
-                "Volume": "(5'10\"): 38 liters (107 beers)"
+                "Volume": "(5'10\"): 38 liters (107 Dr Peppers)"
             }
         },
         {
@@ -87,7 +87,7 @@
                 "Middle": "19 7/8\"",
                 "Tail": "15 7/8",
                 "Thickness": "2 5/8",
-                "Volume": "(5'8\"): 32 liters (90 beers)"
+                "Volume": "(5'8\"): 32 liters (90 Dr Peppers)"
             }
         },
         {
@@ -192,7 +192,7 @@
                 "Middle": "21 7/8\"",
                 "Tail": "14 3/8",
                 "Thickness": "2 7/8",
-                "Volume": "(8'0\"): 60 liters (169 beers)"
+                "Volume": "(8'0\"): 60 liters (169 Dr Peppers)"
             }
         },
         {
@@ -207,7 +207,7 @@
                 "Middle": "22\"",
                 "Tail": "14 1/2",
                 "Thickness": "2 5/8",
-                "Volume": "(6'2\"): 38 liters (107 beers)"
+                "Volume": "(6'2\"): 38 liters (107 Dr Peppers)"
             }
         },
         {
@@ -222,7 +222,127 @@
                 "Middle": "19 1/4\"",
                 "Tail": "14 3/8",
                 "Thickness": "2 1/2",
-                "Volume": "381.34 liters (88.32 beers)"
+                "Volume": "381.34 liters (88.32 Dr Peppers)"
+            }
+        },
+        {
+            "id": 16,
+            "name": "Longboard",
+            "img": "/img/boards/main-longboard.jpg",
+            "logo": "/img/board-models/VernorLogo.jpg",
+            "description": "The 9'0\" performance longboard can be used at 2' Waikiki beach to 6' Steamer Lane. This longboard incorporates stylish nose riding and can do floaters and off the lip depending on where you stand on the board. This board is designed to be ridden from nose to tail and everywhere in-between.",
+            "dims": {
+                "range": "8'6\" - 9'6\"",
+                "Nose": "17 3/4\"",
+                "Middle": "22\"",
+                "Tail": "13 7/8",
+                "Thickness": "3",
+                "Volume": "Plenty!"
+            }
+        },
+        {
+            "id": 18,
+            "name": "The Wild Thing",
+            "img": "/img/boards/main-wild-thing.jpg",
+            "logo": "/img/board-models/WildthingLogo.jpg",
+            "description": "This is the Wild Thing! A hybrid Simmons that turns like a performance shortboard. It can be configured as a 4-fin or 3-fin, has bottom contours and concaves of the Mini Simmons, has a flatter deck and a more aggressive tail rocker. It is a little narrower and about 1 1/2 liters (4 beers) less volume than the Mini Simmons. The Wild Thing is a great summer board to get WILD on!",
+            "dims": {
+                "range": "4'8\" - 6'4\"",
+                "Nose": "16 5/8\"",
+                "Middle": "22\"",
+                "Tail": "21 3/8",
+                "Thickness": "2 5/8",
+                "Volume": "(5'10\"): 39 liters (110 Dr Peppers)"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Silver Bullet II",
+            "img": "/img/boards/main-silver-ii.jpg",
+            "logo": "/img/board-models/SilverBiiLogo.jpg",
+            "description": "This is one of my favorite boards to ride. This board has a displacement hull in the front in to a Vee’d out double concave that ends in a round fang in the tail. This board has Mini-Simmons speed and the ability to go vertical at any moment. I have 5 fins boxes in this board so that I can ride it as a 3-fin for going hyper on the lip. I throw the quad fins in for tube riding and easy gliding transitions through flat sections.",
+            "dims": {
+                "range": "6'1\"",
+                "Nose": "15 1/2\"",
+                "Middle": "21\"",
+                "Tail": "16 3/8",
+                "Thickness": "2 5/8",
+                "Volume": "36.15 liters (101.88 Dr Peppers)"
+            }
+        },
+        {
+            "id": 20,
+            "name": "Log",
+            "img": "/img/boards/main-log.jpg",
+            "logo": "/img/board-models/VernorLogo.jpg",
+            "description": "A contemporary version of the old classic noserider, the log combines classic rocker and rail shape with a more modern volume distribution that allows for a much more user friendly experience for riders of all levels. 50/50 rails and increased tail rocker allow for maximum hold and control while riding the nose. Within the glass job comes a standard knee paddle patch that adds extra strength to the deck of the board and an increased amount of weight to create a smooth glide through the water. Wether it is technical noserides, or simply just cruzing that you are after, the log is right for you! ",
+            "dims": {
+                "range": "9'6\"",
+                "Nose": "19\"",
+                "Middle": "23 3/4\"",
+                "Tail": "16",
+                "Thickness": "3 3/8",
+                "Volume": "(9'6\"): 90 liters (253 Dr Peppers)"
+            }
+        },
+        {
+            "id": 21,
+            "name": "Dump Truck",
+            "img": "/img/boards/main-dump-truck.jpg",
+            "logo": "/img/board-models/DumptruckLogo.jpg",
+            "description": "David has incorporated all of his years of shaping mastery into the ultimate summertime board. Short and wide with low entry rocker and single to double concave with vee out the tail. This performance short board is incredibly fast and loose. David rides this model with the Future T1 fins. Perfect travel board, this shape is best suited for waves one foot to head high. Get one now! ",
+            "dims": {
+                "range": "4'8\" - 6'4\"",
+                "Nose": "15 5/8\"",
+                "Middle": "22\"",
+                "Tail": "16 1/8\"",
+                "Thickness": "2 5/8",
+                "Volume": "(5'10\"): 35.5 liters (100 Dr Peppers)"
+            }
+        },
+        {
+            "id": 22,
+            "name": "Silver Fish",
+            "img": "/img/boards/main-silver-fish.jpg",
+            "logo": "/img/board-models/SilverfishLogo.jpg",
+            "description": "The Silverfish feels very agressive and fast , with keels or standard sized twin fins. Between the bottom contours of a hull and the radical tail design.This board is very lively and goes where no fish will allow. @smell_da_resin",
+            "dims": {
+                "range": "4'8\" - 6'4\"",
+                "Nose": "16 5/8\"",
+                "Middle": "21\"",
+                "Tail": "16 3/8\"",
+                "Thickness": "2 5/8",
+                "Volume": "(5'10\"): 35 liters (98.62 Dr Peppers)"
+            }
+        },
+        {
+            "id": 23,
+            "name": "The Driver",
+            "img": "/img/boards/main-driver.jpg",
+            "logo": "/img/board-models/DriverLogo.jpg",
+            "description": "The Driver is my favorite rounded pin, performance shortboard. With a full outline and 16 inch tail, it picks up and moves at hyper-speed! The single concave holds that speed through the turns to the point that I almost buckled my knee on one of the fastest round-house cutbacks of my life last January. People came up to me and were super excited about how fast I was turning the board!",
+            "dims": {
+                "range": "5'2\" - 6'4\"",
+                "Nose": "12 1/2\"",
+                "Middle": "20\"",
+                "Tail": "15 5/8\"",
+                "Thickness": "2 9/16",
+                "Volume": "(6'0\"): 33 liters (93 Dr Peppers)"
+            }
+        },
+        {
+            "id": 24,
+            "name": "The Pitbull",
+            "img": "/img/boards/main-pitbull.jpg",
+            "logo": "/img/board-models/PitbullLogo.png",
+            "description": "The Pitbull is as comfortable going vertical as it driving through sections. The displacement hull belly transitions to a double concave and a V panel behind the rear fin. The narrower tail and outline is the next step in my refinement of high performance Simmons inspired hulls.",
+            "dims": {
+                "range": "5'2\" - 6'4\"",
+                "Nose": "16 7/8\"",
+                "Middle": "21\"",
+                "Tail": "15 7/8\"",
+                "Thickness": "2 1/2",
+                "Volume": "35.65 liters (101 Dr Peppers)"
             }
         }
     ]
