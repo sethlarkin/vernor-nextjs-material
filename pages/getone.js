@@ -3,10 +3,7 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-// @material-ui/icons
-import Camera from "@material-ui/icons/Camera";
-import Palette from "@material-ui/icons/Palette";
-import Favorite from "@material-ui/icons/Favorite";
+
 // core components
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
@@ -16,14 +13,14 @@ import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import BoardCard from "components/BoardCard"
+import ShopCard from "components/ShopCard"
 
 import { getBoardData } from '../lib/board-data'
 
 import profilePageStyles from "assets/jss/nextjs-material-kit/pages/profilePage.js";
 import { cardTitle } from "assets/jss/nextjs-material-kit.js";
 
-import boardData from "../lib/boards.json"
+import shopData from "../lib/shops.json"
 
 const styles = {
   ...profilePageStyles,
@@ -60,29 +57,65 @@ export default function ProfilePage({ props, allBoardsData }) {
         <div className={classes.container}>
           <GridContainer
             container
-            spacing={3}
-            justify="center"
+            spacing={1}
+            justify="left"
             alignItems="center"
           >
-            <span>
-              <GridItem
-                xs={12}
-              >
-                <h4>Surfshop name</h4>
-                <p>111 address st, capi, ca 95050</p>
-                <a href="">www.surfshop.com</a>
-              </GridItem>
-              <GridItem>
-                <h4>Surfshop name</h4>
-                <p>111 address st, capi, ca 95050</p>
-                <a href="">www.surfshop.com</a>
-              </GridItem>
-              <GridItem>
-                <h4>Surfshop name</h4>
-                <p>111 address st, capi, ca 95050</p>
-                <a href="">www.surfshop.com</a>
-              </GridItem>
-            </span>
+            <div style={{flexDirection:"row"}}>
+              <h3>California</h3>
+              {shopData.shops.california.map(shop => (
+                <ShopCard
+                  name={shop.name}
+                  address={shop.address}
+                  phone={shop.phone}
+                  site={shop.site}
+                />
+              ))}
+            </div>
+            <div>
+              <h3>Maryland</h3>
+              {shopData.shops.maryland.map(shop => (
+                <ShopCard
+                  name={shop.name}
+                  address={shop.address}
+                  phone={shop.phone}
+                  site={shop.site}
+                />
+              ))}
+            </div>
+            <div>
+              <h3>North Carolina</h3>
+              {shopData.shops.north_carolina.map(shop => (
+                <ShopCard
+                  name={shop.name}
+                  address={shop.address}
+                  phone={shop.phone}
+                  site={shop.site}
+                />
+              ))}
+            </div>
+            <div>
+              <h3>South Carolina</h3>
+              {shopData.shops.south_carolina.map(shop => (
+                <ShopCard
+                  name={shop.name}
+                  address={shop.address}
+                  phone={shop.phone}
+                  site={shop.site}
+                />
+              ))}
+            </div>
+            <div>
+              <h3>Texas</h3>
+              {shopData.shops.texas.map(shop => (
+                <ShopCard
+                  name={shop.name}
+                  address={shop.address}
+                  phone={shop.phone}
+                  site={shop.site}
+                />
+              ))}
+            </div>
           </GridContainer>
         </div>
       </div>
