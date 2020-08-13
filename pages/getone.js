@@ -56,97 +56,31 @@ export default function ProfilePage({ props, allBoardsData }) {
       <div className={classNames(classes.main)}>
         <div>
           <div className={classes.container}>
-            <h3>California</h3>
-
-            <GridContainer
-              container
-              direction="row"
-              justify="left"
-              alignItems="center"
-            >
-              {shopData.shops.california.map(shop => (
-
-                <ShopCard
-                  item
-                  name={shop.name}
-                  address={shop.address}
-                  phone={shop.phone}
-                  site={shop.site}
-                />
-              ))}
-            </GridContainer>
-
-            <h3>Maryland</h3>
-            <GridContainer
-              container
-              direction="row"
-              justify="left"
-              alignItems="center"
-            >
-              {shopData.shops.maryland.map(shop => (
-                <ShopCard
-                  name={shop.name}
-                  address={shop.address}
-                  phone={shop.phone}
-                  site={shop.site}
-                />
-              ))}
-            </GridContainer>
-
-            <h3>North Carolina</h3>
-            <GridContainer
-              container
-              direction="row"
-              justify="left"
-              alignItems="center"
-            >
-              {shopData.shops.north_carolina.map(shop => (
-                <ShopCard
-                  name={shop.name}
-                  address={shop.address}
-                  phone={shop.phone}
-                  site={shop.site}
-                />
-              ))}
-            </GridContainer>
-
-            <h3>South Carolina</h3>
-            <GridContainer
-              container
-              direction="row"
-              justify="left"
-              alignItems="center"
-            >
-              {shopData.shops.south_carolina.map(shop => (
-                <ShopCard
-                  name={shop.name}
-                  address={shop.address}
-                  phone={shop.phone}
-                  site={shop.site}
-                />
-              ))}
-            </GridContainer>
-
-            <h3>Texas</h3>
-            <GridContainer
-              container
-              direction="row"
-              justify="left"
-              alignItems="center"
-            >
-              {shopData.shops.texas.map(shop => (
-                <ShopCard
-                  name={shop.name}
-                  address={shop.address}
-                  phone={shop.phone}
-                  site={shop.site}
-                />
-              ))}
-            </GridContainer>
+            {shopData.shops.map(shop => (
+              <React.Fragment>
+                <strong><h3>{shop.state}</h3></strong>
+                <GridContainer
+                  container
+                  direction="row"
+                  justify="left"
+                  alignItems="center"
+                >
+                  {shop.locations.map(info => (
+                    <ShopCard
+                      item
+                      name={info.name}
+                      address={info.address}
+                      phone={info.phone}
+                      site={info.site}
+                    />
+                  ))}
+                </GridContainer>
+              </React.Fragment>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
-    <Footer />
+      <Footer />
     </div >
   );
 }

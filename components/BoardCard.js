@@ -54,15 +54,16 @@ export default function BoardCard(props) {
             alt="Board Logo"
           />
           <CardBody>
-
-            <h4 className={classes.cardTitle}>{props.name}</h4>
-            <Button
-              color="primary"
-              block
-              onClick={() => setClassicModal(true)}
-            >
-              MORE
+            <div style={{position:"absolute", bottom:0, left: 15, right: 15}}>
+              <h4 className={classes.cardTitle}>{props.name}</h4>
+              <Button
+                color="primary"
+                block
+                onClick={() => setClassicModal(true)}
+              >
+                MORE
                 </Button>
+            </div>
             <Dialog
               classes={{
                 root: classes.center,
@@ -81,15 +82,6 @@ export default function BoardCard(props) {
                 disableTypography
                 className={classes.modalHeader}
               >
-                {/* <IconButton
-                    className={classes.modalCloseButton}
-                    key="close"
-                    aria-label="Close"
-                    color="inherit"
-                    onClick={() => setClassicModal(false)}
-                  >
-                    <Close className={classes.modalClose} />
-                  </IconButton> */}
                 <div style={{ display: "flex" }}>
                   <img
                     style={{ flex: 1, padding: "6px", marginTop: "10px" }}
