@@ -5,6 +5,7 @@ import Slide from "@material-ui/core/Slide";
 
 
 // core components
+import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 
@@ -12,14 +13,21 @@ export default function BoardCard(props) {
 
     return (
         <div style={{ padding: "3px" }}>
-            <Card style={{  minHeight: "200px" }}>
-                <CardBody>
-                    <h4>{props.name}</h4>
-                    <address>{props.address}</address>
-                    <p>{props.phone}</p>
-                    <a href="{props.site}">{props.site}</a>
-                </CardBody>
-            </Card>
+            <GridItem xs={12} sm={12} md={6} lg={10}>
+
+                <Card style={{ width: "20em", marginLeft: "auto", marginRight: "auto", minHeight: "200px"}}>
+                    <CardBody>
+                        <h4>{props.name}</h4>
+                        <address>{props.address}</address>
+                        <p>{props.phone}</p>
+                        <a
+                            href={"http://" + props.site}
+                            target="_self" >
+                            {props.site}
+                        </a>
+                    </CardBody>
+                </Card>
+            </GridItem>
         </div>
     )
 

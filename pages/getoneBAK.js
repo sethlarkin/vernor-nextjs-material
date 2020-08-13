@@ -56,8 +56,21 @@ export default function ProfilePage({ props, allBoardsData }) {
       <div className={classNames(classes.main)}>
         <div>
           <div className={classes.container}>
-            <h3>California</h3>
+            {shopData.shops.map(state => (
+              <h3>{Object.keys(state)[0].toUpperCase()}</h3>
+              <GridContainer
+                container
+                direction="row"
+                justify="left"
+                alignItems="center"
+              >
+                
+              </GridContainer>
 
+            ))}
+
+
+            <h3>California</h3>
             <GridContainer
               container
               direction="row"
@@ -74,15 +87,9 @@ export default function ProfilePage({ props, allBoardsData }) {
                   site={shop.site}
                 />
               ))}
-            </GridContainer>
 
-            <h3>Maryland</h3>
-            <GridContainer
-              container
-              direction="row"
-              justify="left"
-              alignItems="center"
-            >
+              <div>
+              <h3>Maryland</h3>
               {shopData.shops.maryland.map(shop => (
                 <ShopCard
                   name={shop.name}
@@ -91,15 +98,9 @@ export default function ProfilePage({ props, allBoardsData }) {
                   site={shop.site}
                 />
               ))}
-            </GridContainer>
-
-            <h3>North Carolina</h3>
-            <GridContainer
-              container
-              direction="row"
-              justify="left"
-              alignItems="center"
-            >
+            </div>
+            <div>
+              <h3>North Carolina</h3>
               {shopData.shops.north_carolina.map(shop => (
                 <ShopCard
                   name={shop.name}
@@ -108,15 +109,9 @@ export default function ProfilePage({ props, allBoardsData }) {
                   site={shop.site}
                 />
               ))}
-            </GridContainer>
-
-            <h3>South Carolina</h3>
-            <GridContainer
-              container
-              direction="row"
-              justify="left"
-              alignItems="center"
-            >
+            </div>
+            <div>
+              <h3>South Carolina</h3>
               {shopData.shops.south_carolina.map(shop => (
                 <ShopCard
                   name={shop.name}
@@ -125,15 +120,9 @@ export default function ProfilePage({ props, allBoardsData }) {
                   site={shop.site}
                 />
               ))}
-            </GridContainer>
-
-            <h3>Texas</h3>
-            <GridContainer
-              container
-              direction="row"
-              justify="left"
-              alignItems="center"
-            >
+            </div>
+            <div>
+              <h3>Texas</h3>
               {shopData.shops.texas.map(shop => (
                 <ShopCard
                   name={shop.name}
@@ -142,20 +131,20 @@ export default function ProfilePage({ props, allBoardsData }) {
                   site={shop.site}
                 />
               ))}
-            </GridContainer>
+            </div>
+          </div>
+          </div>
         </div>
+        <Footer />
       </div>
-    </div>
-    <Footer />
-    </div >
   );
 }
 
 export async function getStaticProps() {
   const allBoardsData = getBoardData()
   return {
-    props: {
-      allBoardsData
-    }
+        props: {
+        allBoardsData
+      }
   }
 }
