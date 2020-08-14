@@ -16,6 +16,8 @@ import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/pill
 
 import VectorFins from "public/img/VectorFins.jpg"
 
+import AccessibleTable from "components/Tables/AccessibleTable.js"
+
 const useStyles = makeStyles(styles);
 
 export default function SectionPills() {
@@ -31,7 +33,6 @@ export default function SectionPills() {
             </h3>
           </div>
           <GridContainer>
-
             <GridItem xs={12} sm={12} md={12} lg={12}>
               <NavPills
                 color="rose"
@@ -78,16 +79,16 @@ export default function SectionPills() {
                     )
                   },
                   {
-                    tabButton: "Schedule",
-                    tabIcon: Schedule,
+                    tabButton: "Materials",
                     tabContent: (
                       <span>
+                        <h4><strong>materials</strong></h4>
                         <p>
-                          Efficiently unleash cross-media information without
-                          cross-media value. Quickly maximize timely
-                          deliverables for real-time schemas.
+                        We use the most advanced blanks and resins for custom surfboards and wake surfboards in the industry. Surfers can choose from polyurethane foam with polyester resin or EPS foam with epoxy resin. All boards use Direct-Size Hexcel fiberglass. The polyurethane boards use environmentally friendly and top of the line Y2K solar resin. The epoxy boards utilize 2 lb. EPS Edro Foam from Dixon, California, and Epoxy resin that is 35% more flexible and MUCH stronger which creates a stronger, lighter board.
                         </p>
                         <br />
+                        <AccessibleTable />
+                        <br/>
                         <p>
                           Dramatically maintain clicks-and-mortar solutions
                           without functional solutions. Dramatically visualize

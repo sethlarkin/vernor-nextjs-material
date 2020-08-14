@@ -53,14 +53,15 @@ export default function ProfilePage(props) {
         brand="NextJS Material Kit"
         rightLinks={<HeaderLinks />}
         fixed
-        
+
         {...rest}
       />
       <div className={classNames(classes.main)}>
-      <img src={SuspensionBoard} alt="Suspension Board" style={{width: "70%", marginTop: "100px", alignContent: "center"}}/>
-
+        <p style={{ align: "center" }}>
+          <img src={SuspensionBoard} alt="Suspension Board" style={{ width: "70%", display:"block", marginLeft:"auto", marginRight: "auto", marginTop: "70px" }} />
+        </p>
         <TechPills />
-      </div>  
+      </div>
       <Footer />
     </div>
   );
