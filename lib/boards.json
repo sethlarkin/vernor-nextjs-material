@@ -109,7 +109,7 @@
             "id": 8,
             "name": "Baker",
             "img": "/img/boards/main-baker.jpg",
-            "logo": "/img/board-models/VernorLogo.jpg",
+            "logo": "/img/board-models/BakerLogo.jpg",
             "description": "The Baker is our newest idea in high-performance twin-fins that can also be ridden as a thruster. The Baker is super-fast and loose with a single or double-concave, accelerated-V out the tail, and a big nose so we can push more volume forward. This allows for super-easy wave catching. I recommend getting this board 2 inches smaller than your Chef.",
             "dims": {
                 "range": "4'8\" - 6'4\"",
@@ -124,7 +124,7 @@
             "id": 9,
             "name": "Donkey Jumper II",
             "img": "/img/boards/main-donkey-ii.jpg",
-            "logo": "/img/board-models/VernorLogo.jpg",
+            "logo": "/img/board-models/DonkeyJumperLogo.jpg",
             "description": "Short, wide and ugly, but fun and fast. We designed this board for small to med surf with an emphasis on the launch!!!!!!",
             "dims": {
                 "range": "5'2\" - 6'6\"",
@@ -139,7 +139,7 @@
             "id": 10,
             "name": "Redline",
             "img": "/img/boards/main-redline.jpg",
-            "logo": "/img/board-models/RedlineLogo.png",
+            "logo": "/img/board-models/RedlineLogo.jpg",
             "description": "The new redline is an advanced to professional level surfboard. It is a single concave all the way through. Super-fast rail to rail and goes to the air in one pump! Very exciting board and also is available as a step up!",
             "dims": {
                 "range": "4'8\" - 6'4\"",
@@ -169,7 +169,7 @@
             "id": 12,
             "name": "The Thumbtack",
             "img": "/img/boards/main-thumbtack.jpg",
-            "logo": "/img/board-models/ThumbtackLogo.png",
+            "logo": "/img/board-models/ThumbtackLogo.jpg",
             "description": "The guys at Aqua Surf Shop in San Francisco said it best, “The Thumbtack is all of Vernor’s boards rolled into one!” It’s easy to use, stable, fast and turns on a dime! This is a very user-friendly board that has a place in anybody’s quiver, from just learning to the full on ripper.",
             "dims": {
                 "range": "5'2\" - 6'5\"",

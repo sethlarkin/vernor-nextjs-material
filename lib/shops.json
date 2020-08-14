@@ -42,22 +42,22 @@
                     "id": 6,
                     "name": "Sonlight Surf Shop",
                     "address": "575 Crespi Dr # 1, Pacifica, CA",
-                    "phone": "(650) 359-5471",
+                    "phone": "650-359-5471",
                     "site": "www.sonlightsurfshop.com"
                 },
                 {
                     "id": 7,
                     "name": "Sunshine Freestyle",
                     "address": "443 Lighthouse Avenue, Monterey, CA ",
-                    "phone": "(831) 375-5015",
+                    "phone": "831-375-5015",
                     "site": "www.sunshinefreestyle.com"
                 },
                 {
-                    "id": 7,
-                    "name": "Sunshine Freestyle",
-                    "address": "443 Lighthouse Avenue, Monterey, CA ",
-                    "phone": "(831) 375-5015",
-                    "site": "www.sunshinefreestyle.com"
+                    "id": 8,
+                    "name": "Sonoma Coast Surf Shop",
+                    "address": "9 — 4th St, Petaluma, CA 94952",
+                    "phone": "707-763-3860",
+                    "site": "www.sonomacoastsurfshop.com"
                 }
             ]
         },
@@ -94,14 +94,14 @@
                     "id": 2,
                     "name": "Aussie Island",
                     "address": "5101 Dunlea Ct., Wilmington, NC, 910-256-5454",
-                    "phone": "(910)256-5454",
+                    "phone": "910-256-5454",
                     "site": "www.aussieisland.com"
                 },
                 {
                     "id": 3,
                     "name": "Aussie Island",
                     "address": "1 North Lumina Avenue, NC, 910-256-6789",
-                    "phone": "(910)256-6789",
+                    "phone": "910-256-6789",
                     "site": "www.aussieisland.com"
                 },
                 {
@@ -115,14 +115,14 @@
                     "id": 5,
                     "name": "REAL Watersports",
                     "address": "25706 North Carolina 12, Waves, NC 27982 - 252-987-6000",
-                    "phone": "(866) REAL-548 ",
+                    "phone": "866-REAL-548 ",
                     "site": "www.realwatersports.com"
                 },
                 {
                     "id": 6,
                     "name": "Whalebone Surf Shop",
                     "address": "2214 S. Croatan Hwy, Nags Head, NC - 252-441-6747",
-                    "phone": "(877) 855-1975 ",
+                    "phone": "877-855-1975 ",
                     "site": "www.whalebonesurfshop.com"
                 }
             ]

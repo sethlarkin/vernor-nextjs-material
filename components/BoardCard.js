@@ -42,22 +42,23 @@ export default function BoardCard(props) {
     <div style={{ padding: "10px" }}>
       <GridItem xs={12} sm={12} md={6} lg={4}>
 
-        <Card style={{ width: "20em", marginLeft: "auto", marginRight: "auto", minHeight: "590px" }}>
+        <Card style={{ width: "20em", marginLeft: "auto", marginRight: "auto", minHeight: "510px" }}>
           <img
             style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
             src={props.image}
             alt="BarracBoard Imageuda"
           />
           <img
-            style={{ height: "30%", width: "34%", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "6px" }}
+            style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "20px" }}
             src={props.logo}
             alt="Board Logo"
           />
           <CardBody>
-            <div style={{position:"absolute", bottom:0, left: 15, right: 15}}>
+            <div style={{position:"absolute", bottom:0, left: 40, right: 40}}>
               <h4 className={classes.cardTitle}>{props.name}</h4>
               <Button
                 color="primary"
+                simple
                 block
                 onClick={() => setClassicModal(true)}
               >

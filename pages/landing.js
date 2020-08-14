@@ -44,7 +44,7 @@ export default function LandingPage(props) {
       />
       <Parallax  responsive image={require("public/img/4mile.jpeg")}>
         <div style={{color: "black", display: "flex", justifyContent: "left"}} className={classes.container}>
-          <GridContainer>
+          <GridContainer style={{marginLeft: "15px"}}>
             <GridItem xs={12} sm={12} md={6}>
               <h1 style={{color: "black"}} className={classes.title}>Your Surf Story Starts With Us.</h1>
               <h4 style={{justifyContent: "right"}}>
