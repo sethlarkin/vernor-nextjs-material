@@ -10,8 +10,7 @@ import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles({
   table: {
-    minWidth: 300,
-    maxWidth: 200,
+    minWidth: 650,
   },
 });
 
@@ -31,8 +30,8 @@ export default function AcccessibleTable() {
   const classes = useStyles();
 
   return (
-    <TableContainer style={{maxWidth:"250px"}} component={Paper}>
-      <Table  aria-label="caption table">
+    <TableContainer component={Paper}>
+      <Table className={classes.table} aria-label="caption table">
         <TableHead>
           <TableRow>
             <TableCell></TableCell>
