@@ -89,14 +89,6 @@ export default function SectionPills() {
                         <br />
                         <AccessibleTable />
                         <br/>
-                        <p>
-                          Dramatically maintain clicks-and-mortar solutions
-                          without functional solutions. Dramatically visualize
-                          customer directed convergence without revolutionary
-                          ROI. Collaboratively administrate empowered markets
-                          via plug-and-play networks. Dynamically procrastinate
-                          B2C users after installed base benefits.
-                        </p>
                       </span>
                     )
                   }

@@ -50,6 +50,10 @@ export default function Footer(props) {
                 Blog
               </a>
             </ListItem>
+
+            <ListItem className={classes.inlineBlock}>
+             <h4><strong>CALL US 831-234-4410</strong></h4>
+            </ListItem>
             
           </List>
         </div>

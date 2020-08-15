@@ -5,7 +5,7 @@ import tooltip from "assets/jss/nextjs-material-kit/tooltipsStyle.js";
 const headerLinksStyle = theme => ({
   list: {
     ...defaultFont,
-    fontSize: "14px",
+    fontSize: "20 px",
     margin: 0,
     paddingLeft: "0",
     listStyle: "none",
@@ -41,7 +41,7 @@ const headerLinksStyle = theme => ({
     position: "relative",
     padding: "0.9375rem",
     fontWeight: "400",
-    fontSize: "12px",
+    fontSize: "16px",
     textTransform: "uppercase",
     borderRadius: "3px",
     lineHeight: "20px",
