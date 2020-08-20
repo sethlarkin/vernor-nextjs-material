@@ -18,6 +18,7 @@ import Menu from "@material-ui/icons/Menu";
 import styles from "assets/jss/nextjs-material-kit/components/headerStyle.js";
 
 import VernorWhite from "assets/img/board-models/VernorLogoWhite.jpg"
+import VernorLogo from "public/img/vernor-logo.png"
 
 const useStyles = makeStyles(styles);
 
@@ -66,8 +67,8 @@ export default function Header(props) {
   const brandComponent = (
 
     <Link href="/landing" as="/landing">
-
-      <Button className={classes.title} style={{ fontWeight: 'bold' }}>Vernor Surfboards</Button>
+      
+      <img src={VernorLogo} alt="Vernor Logo" style={{ width: "30%", display:"block", marginRight: "auto", marginTop: "10px" }}/>
     </Link>
   );
   return (

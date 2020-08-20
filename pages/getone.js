@@ -41,20 +41,20 @@ export default function ProfilePage({ props, allBoardsData }) {
   return (
     <div>
       <Header
-        color="transparent"
+        color="white"
         brand="NextJS Material Kit"
         rightLinks={<HeaderLinks />}
         fixed
-        changeColorOnScroll={{
-          height: 200,
-          color: "white"
-        }}
         {...rest}
       />
-      <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
 
       <div className={classNames(classes.main)}>
-        <div>
+        <div 
+        style={{marginTop: "72px"}}
+
+        >
+          <h3 style={{textAlign:"center"}}><strong>Vernor surfboards are available at these fine retailers</strong></h3>
+          
           <div className={classes.container}>
             {shopData.shops.map(shop => (
               <React.Fragment>

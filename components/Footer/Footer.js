@@ -31,8 +31,8 @@ export default function Footer(props) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            
-            <ListItem className={classes.inlineBlock}>
+
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href="/"
                 className={classes.block}
@@ -49,23 +49,20 @@ export default function Footer(props) {
               >
                 Blog
               </a>
+            </ListItem> */}
+            
+            
+            <ListItem className={classes.inlineBlock}>
+              <h4 lassName={classes.block}><strong>CALL US 831-234-4410</strong></h4>
             </ListItem>
 
-            <ListItem className={classes.inlineBlock}>
-             <h4><strong>CALL US 831-234-4410</strong></h4>
-            </ListItem>
-            
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} />
-          <a
-            href="/"
-            className={aClasses}
-            target="_blank"
-          >
-          </a>
+          &copy; {1900 + new Date().getYear()} ,{"   "}
+          <ListItem className={classes.inlineBlock}>
+              <h5 lassName={classes.block}>381 Pine St, Watsonville, CA 95076</h5>
+            </ListItem>
         </div>
       </div>
     </footer>

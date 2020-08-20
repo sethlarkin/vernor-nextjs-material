@@ -83,14 +83,15 @@ export default function BoardCard(props) {
                 disableTypography
                 className={classes.modalHeader}
               >
-                <div style={{ display: "flex" }}>
+                {/* <div style={{ display: "flex" }}> */}
+                <div>
                   <img
                     style={{ flex: 1, padding: "6px", marginTop: "10px" }}
                     src={props.image}
                     alt="Board Image"
                   />
                   <img
-                    style={{ flex: 1, padding: "6px", display: "block", marginLeft: "20px", marginTop: "10px" }}
+                    style={{width: "30%", flex: 1, padding: "6px", display: "block", marginLeft: "20px", marginTop: "10px" }}
                     src={props.logo}
                     alt="Board Logo"
                   />

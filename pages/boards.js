@@ -44,20 +44,18 @@ export default function ProfilePage({ props, allBoardsData }) {
   return (
     <div>
       <Header
-        color="transparent"
+        color="white"
         brand="NextJS Material Kit"
         rightLinks={<HeaderLinks />}
         fixed
-        changeColorOnScroll={{
-          height: 200,
-          color: "white"
-        }}
+
         {...rest}
       />
-      <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
 
       <div className={classNames(classes.main)}>
-        <div>
+        <div
+          style={{ marginTop: "72px" }}
+        >
           <div className={classes.container}>
             <GridContainer
               container
