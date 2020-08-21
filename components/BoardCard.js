@@ -49,13 +49,13 @@ export default function BoardCard(props) {
             alt="BarracBoard Imageuda"
           />
           <img
-            style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "20px" }}
+            style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "20px", marginBottom:"auto" }}
             src={props.logo}
             alt="Board Logo"
           />
           <CardBody>
             <div style={{position:"absolute", bottom:0, left: 40, right: 40}}>
-              <h4 className={classes.cardTitle}>{props.name}</h4>
+              <h4 style={{textAlign:"center", paddingTop:"10px"}}>{props.name}</h4>
               <Button
                 color="primary"
                 simple
@@ -86,7 +86,7 @@ export default function BoardCard(props) {
                 {/* <div style={{ display: "flex" }}> */}
                 <div>
                   <img
-                    style={{ flex: 1, padding: "6px", marginTop: "10px" }}
+                    style={{ padding: "6px", marginTop: "10px" }}
                     src={props.image}
                     alt="Board Image"
                   />
@@ -98,7 +98,7 @@ export default function BoardCard(props) {
                 </div>
 
 
-                <h4 className={classes.modalTitle}><strong>{props.name}</strong></h4>
+                <h4 className={classes.modalTitle} ><strong>{props.name}</strong></h4>
               </DialogTitle>
               <DialogContent
                 id="classic-modal-slide-description"
