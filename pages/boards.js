@@ -54,7 +54,7 @@ export default function ProfilePage({ props, allBoardsData }) {
 
       <div className={classNames(classes.main)}>
         <div
-          style={{ marginTop: "72px" }}
+          style={{ marginTop: "25px", paddingTop: "75px" }}
         >
           <div className={classes.container}>
             <GridContainer

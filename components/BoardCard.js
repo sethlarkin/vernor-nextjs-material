@@ -42,7 +42,7 @@ export default function BoardCard(props) {
     <div style={{ padding: "10px" }}>
       <GridItem xs={12} sm={12} md={6} lg={4}>
 
-        <Card style={{ width: "20em", marginLeft: "auto", marginRight: "auto", minHeight: "510px" }}>
+        <Card style={{ width: "20em", marginLeft: "auto", marginRight: "auto", minHeight: "600px", paddingTop:"15px" }}>
           <img
             style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
             src={props.image}
@@ -54,8 +54,8 @@ export default function BoardCard(props) {
             alt="Board Logo"
           />
           <CardBody>
-            <div style={{position:"absolute", bottom:0, left: 40, right: 40}}>
-              <h4 style={{textAlign:"center", paddingTop:"10px"}}>{props.name}</h4>
+            <div style={{position:"absolute", bottom:0, left: 40, right: 40, paddingTop: "20px"}}>
+              <h4 style={{textAlign:"center", paddingTop:"20px"}}>{props.name}</h4>
               <Button
                 color="primary"
                 simple
