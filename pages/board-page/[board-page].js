@@ -35,7 +35,7 @@ export default function BoardPage({ props, allBoardsData }) {
         // console.log(element.name.toLowerCase())
         // console.log("id: " + id);
         if (element.name.toLowerCase().includes(id)) {
-            // console.log(element.name.toLowerCase().includes(id) + ' ' + typeof (element.name));
+            console.log("BOARD_PAGE" + element.name.toLowerCase().includes(id) + ' ' + typeof (element.name));
             boardDetail = element;
             // console.log("boardDetail" + ' ' + JSON.stringify(boardDetail));
 
@@ -79,12 +79,20 @@ export default function BoardPage({ props, allBoardsData }) {
             <div className={classNames(classes.main)} style={{ padding: "120px" }}>
                 <h3>{boardDetail.name}</h3>
                 <img
+                    style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto"}}
+                    src={boardDetail.logo}
+                    alt="Board Logo"
+                />
+                <img
                     style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
                     src={boardDetail.img}
                     alt="BarracBoard Imageuda"
                 />
-                <div>
+                <hr />
+                <div >
+                    <br />
                     <p><strong>{boardDetail.description}</strong></p>
+                    <hr />
                     <h6>Size Range: {boardDetail.dims.range}</h6>
                     <h6>Nose: {boardDetail.dims.Nose}</h6>
                     <h6>Middle: {boardDetail.dims.Middle}</h6>
@@ -92,8 +100,32 @@ export default function BoardPage({ props, allBoardsData }) {
                     <h6>Thickness: {boardDetail.dims.Thickness}</h6>
                     <h6>Volume: {boardDetail.dims.Volume}</h6>
                 </div>
-                
             </div>
+            <style jsx>{`
+                h3 {
+                    font-weight:bold;
+                    text-align:center;
+                }
+                p {
+                    text-align:center;
+                }
+                @media (min-width: 600px) {
+                    p {
+                        // float:right;
+                        text-align:left;
+                    }
+                    img {
+                        float:left;
+                        padding-right:20px;
+                    }
+                }
+            `}</style>
+            <style global jsx>{`
+                // body {
+                //     background: black;
+                // }
+            `}</style>
+            <div><Footer /></div>
         </div >
     );
 }

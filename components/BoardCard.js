@@ -2,7 +2,7 @@ import React from "react";
 // material-ui components
 import { makeStyles } from "@material-ui/core/styles";
 import Slide from "@material-ui/core/Slide";
-
+import Link from 'next/link'
 
 // core components
 import Card from "components/Card/Card.js";
@@ -37,33 +37,35 @@ const useStyles = makeStyles(styles);
 export default function BoardCard(props) {
   const classes = useStyles();
   const [classicModal, setClassicModal] = React.useState(false);
+  const model = props.name.replace('The ', '').split(' ')[0].toLowerCase()
 
   return (
     <div style={{ padding: "10px" }}>
       <GridItem xs={12} sm={12} md={6} lg={4}>
 
-        <Card style={{ width: "20em", marginLeft: "auto", marginRight: "auto", minHeight: "600px", paddingTop:"15px" }}>
+        <Card style={{ width: "20em", marginLeft: "auto", marginRight: "auto", minHeight: "600px", paddingTop: "15px" }}>
           <img
             style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
             src={props.image}
             alt="BarracBoard Imageuda"
           />
           <img
-            style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "20px", marginBottom:"auto" }}
+            style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "20px", marginBottom: "auto" }}
             src={props.logo}
             alt="Board Logo"
           />
           <CardBody>
-            <div style={{position:"absolute", bottom:0, left: 40, right: 40, paddingTop: "20px"}}>
-              <h4 style={{textAlign:"center", paddingTop:"20px"}}>{props.name}</h4>
-              <Button
-                color="primary"
-                simple
-                block
-                onClick={() => setClassicModal(true)}
-              >
-                MORE
+            <div style={{ position: "absolute", bottom: 0, left: 40, right: 40, paddingTop: "20px" }}>
+              <h4 style={{ textAlign: "center", paddingTop: "20px" }}><strong>{props.name}</strong></h4>
+              <Link href={"/board-page/" + model}>
+                <Button
+                  color="primary"
+                  simple
+                  block
+                >
+                  MORE
                 </Button>
+              </Link>
             </div>
             <Dialog
               classes={{
@@ -91,7 +93,7 @@ export default function BoardCard(props) {
                     alt="Board Image"
                   />
                   <img
-                    style={{width: "30%", flex: 1, padding: "6px", display: "block", marginLeft: "20px", marginTop: "10px" }}
+                    style={{ width: "30%", flex: 1, padding: "6px", display: "block", marginLeft: "20px", marginTop: "10px" }}
                     src={props.logo}
                     alt="Board Logo"
                   />
