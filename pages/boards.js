@@ -72,6 +72,7 @@ export default function ProfilePage({ props, allBoardsData }) {
                     image={board.img}
                     description={board.description}
                     dims={board.dims}
+                    model={board.model}
                   />
                 </div>
               ))}

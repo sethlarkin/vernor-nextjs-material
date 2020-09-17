@@ -26,7 +26,7 @@ const styles = {
 
 const useStyles = makeStyles(styles);
 
-export default function BoardPage({ props, allBoardsData }) {
+export default function BoardPage({ props, boardData }) {
     const router = useRouter();
     const id = router.query['board-page'];
 
@@ -34,8 +34,7 @@ export default function BoardPage({ props, allBoardsData }) {
     boardData.boards.forEach(element => {
         // console.log(element.name.toLowerCase())
         // console.log("id: " + id);
-        if (element.name.toLowerCase().includes(id)) {
-            console.log("BOARD_PAGE" + element.name.toLowerCase().includes(id) + ' ' + typeof (element.name));
+        if (element.model === id) {
             boardDetail = element;
             // console.log("boardDetail" + ' ' + JSON.stringify(boardDetail));
 
@@ -129,3 +128,25 @@ export default function BoardPage({ props, allBoardsData }) {
         </div >
     );
 }
+
+export async function getStaticProps(context) {
+
+    return {
+        props: {
+            boardData
+      },
+    }
+  }
+
+  // This function gets called at build time
+export async function getStaticPaths() {
+
+    console.log('[board-page] boardData' + boardData)
+    // Get the paths we want to pre-render based on posts
+    const paths = boardData.boards.map((board) => `/board-page/${board.model}`)
+  
+    // We'll pre-render only these paths at build time.
+    // { fallback: false } means other routes should 404.
+    return { paths, fallback: false }
+  }
+  

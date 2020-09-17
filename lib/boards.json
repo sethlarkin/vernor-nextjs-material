@@ -67,7 +67,7 @@
         {
             "id": 5,
             "name": "Mini Simmons",
-            "model": "tree-h",
+            "model": "mini-simmons",
             "img": "/img/boards/main-mini-simmons.jpg",
             "logo": "/img/board-models/MiniSimmonsLogo.jpg",
             "description": "Old and new ideas come together, this displacement hull and almost no rocker has been improved by ending the tail with a double con cave and a 4-fin setup. the fastest board I've ever ridden. - David Vernor",
@@ -83,6 +83,7 @@
         {
             "id": 6,
             "name": "The Falcon",
+            "model": "falcon",
             "img": "/img/boards/main-falcon.jpg",
             "logo": "/img/board-models/FalconLogo.jpg",
             "description": "The Falcon is the most versatile board in my quiver. This board goes to the beach with me whether it's waist high or overhead. It's a versatile, responsive, high performance machine. It makes waist-high groveling days fun and works in pumping barrels. I've tested this board in the beach breaks of Bethany beach Delaware, Cape Hatteras, and the reef breaks of Puerto Rico. Order yours today! - Colin Herlihy",
@@ -98,6 +99,7 @@
         {
             "id": 7,
             "name": "Hellbilly",
+            "model": "hellbilly",
             "img": "/img/boards/main-hellbilly.jpg",
             "logo": "/img/board-models/HellbillyLogo.jpg",
             "description": "The story: I reached out to David telling him I needed a board that was specifically for low tide shorebreak. Something that paddled fast and was responsive enough for under the lip take offs, loose and manueverable to pump through barrels. My 5'10 is 3 inches thick. I asked for extra float to paddle fast and float me in a 5mm suit. I also asked for this board to have David's special epoxy application with a round pin and 5 fin set up. The name the Hellbilly came from my love for the outdoors and outlaw country music. - Colin",
@@ -113,6 +115,7 @@
         {
             "id": 8,
             "name": "Baker",
+            "model": "baker",
             "img": "/img/boards/main-baker.jpg",
             "logo": "/img/board-models/BakerLogo.jpg",
             "description": "The Baker is our newest idea in high-performance twin-fins that can also be ridden as a thruster. The Baker is super-fast and loose with a single or double-concave, accelerated-V out the tail, and a big nose so we can push more volume forward. This allows for super-easy wave catching. I recommend getting this board 2 inches smaller than your Chef.",
@@ -128,6 +131,7 @@
         {
             "id": 9,
             "name": "Donkey Jumper II",
+            "model": "donkey-jumper-ii",
             "img": "/img/boards/main-donkey-ii.jpg",
             "logo": "/img/board-models/DonkeyJumperLogo.jpg",
             "description": "Short, wide and ugly, but fun and fast. We designed this board for small to med surf with an emphasis on the launch!!!!!!",
@@ -143,6 +147,7 @@
         {
             "id": 10,
             "name": "Redline",
+            "model": "redline",
             "img": "/img/boards/main-redline.jpg",
             "logo": "/img/board-models/RedlineLogo.jpg",
             "description": "The new redline is an advanced to professional level surfboard. It is a single concave all the way through. Super-fast rail to rail and goes to the air in one pump! Very exciting board and also is available as a step up!",
@@ -158,6 +163,7 @@
         {
             "id": 11,
             "name": "The Rubble",
+            "model": "rubble",
             "img": "/img/boards/main-rubble.jpg",
             "logo": "/img/board-models/RubbleLogo.jpg",
             "description": "This is my personal Rubble! And here’s the Tech story for you. This is an I-foam blank from Marko foam with a bamboo stringer, its laminated with1 layer of s-glass on both sides, suspension on the inside and vector-net with carbon pro-toes on the deck. This is my favorite go-to board that snaps off the bottom and top better than anything I have ever ridden. The recoil and spring are unbelievable with these materials you won’t be disappointed!",
@@ -173,6 +179,7 @@
         {
             "id": 12,
             "name": "The Thumbtack",
+            "model": "thumbtack",
             "img": "/img/boards/main-thumbtack.jpg",
             "logo": "/img/board-models/ThumbtackLogo.jpg",
             "description": "The guys at Aqua Surf Shop in San Francisco said it best, “The Thumbtack is all of Vernor’s boards rolled into one!” It’s easy to use, stable, fast and turns on a dime! This is a very user-friendly board that has a place in anybody’s quiver, from just learning to the full on ripper.",
@@ -188,6 +195,7 @@
         {
             "id": 13,
             "name": "Triplane",
+            "model": "triplane",
             "img": "/img/boards/main-triplane.jpg",
             "logo": "/img/board-models/TriplaneLogo.jpg",
             "description": "The Triplane started as a design for a longboard for a person who wanted more paddling speed, and a more lively performer vs. a plank. Since its inception, it has also turned a shorter eggy-type shortboard into a mor eversatile all around knee to head-high performer. If you are looking for a board that paddles way better than its volume, but you don't have to pump it to get it going like a fish, you'll have a blast! And, if you do pump it, it flies! Dave makes this board from 6'4\" to 9'6\". EPS or POLY. The 6'4\" stringerless EPS is awesome!",
@@ -203,6 +211,7 @@
         {
             "id": 14,
             "name": "The Egg",
+            "model": "egg",
             "img": "/img/boards/main-egg.jpg",
             "logo": "/img/board-models/EggLogo.jpg",
             "description": "The Egg is the perfect board for any surfer from beginner to advanced. This board glides in easy and turns on a dime. The whole family can benefit from having an egg in there household. It will be a go to for the kids or when Dad just wants to catch all the waves.",
@@ -218,6 +227,7 @@
         {
             "id": 15,
             "name": "Scorpion",
+            "model": "scorpion",
             "img": "/img/boards/main-scorpion.jpg",
             "logo": "/img/board-models/ScorpionLogo.jpg",
             "description": "The Scorpion is a great good-wave board for shoulder to double over head and can be used as a step-up board for most intermediate and higher level surfers. This board has low entry rocker with a single to double concave that ends with a 3/8” vee at the tail. The round pin provides easy rail to rail transitions in and out of the pocket with plenty of outline curve for vertical transitions. The 3 or 4 fin options make this boards into one of the best travel boards in our lineup",
@@ -233,6 +243,7 @@
         {
             "id": 16,
             "name": "Longboard",
+            "model": "longboard",
             "img": "/img/boards/main-longboard.jpg",
             "logo": "/img/board-models/VernorLogo.jpg",
             "description": "The 9'0\" performance longboard can be used at 2' Waikiki beach to 6' Steamer Lane. This longboard incorporates stylish nose riding and can do floaters and off the lip depending on where you stand on the board. This board is designed to be ridden from nose to tail and everywhere in-between.",
@@ -248,6 +259,7 @@
         {
             "id": 18,
             "name": "The Wild Thing",
+            "model": "wild-thing",
             "img": "/img/boards/main-wild-thing.jpg",
             "logo": "/img/board-models/WildthingLogo.jpg",
             "description": "This is the Wild Thing! A hybrid Simmons that turns like a performance shortboard. It can be configured as a 4-fin or 3-fin, has bottom contours and concaves of the Mini Simmons, has a flatter deck and a more aggressive tail rocker. It is a little narrower and about 1 1/2 liters (4 beers) less volume than the Mini Simmons. The Wild Thing is a great summer board to get WILD on!",
@@ -263,6 +275,7 @@
         {
             "id": 19,
             "name": "Silver Bullet II",
+            "model": "silver-bullet-ii",
             "img": "/img/boards/main-silver-ii.jpg",
             "logo": "/img/board-models/SilverBiiLogo.jpg",
             "description": "This is one of my favorite boards to ride. This board has a displacement hull in the front in to a Vee’d out double concave that ends in a round fang in the tail. This board has Mini-Simmons speed and the ability to go vertical at any moment. I have 5 fins boxes in this board so that I can ride it as a 3-fin for going hyper on the lip. I throw the quad fins in for tube riding and easy gliding transitions through flat sections.",
@@ -278,6 +291,7 @@
         {
             "id": 20,
             "name": "Log",
+            "model": "log",
             "img": "/img/boards/main-log.jpg",
             "logo": "/img/board-models/VernorLogo.jpg",
             "description": "A contemporary version of the old classic noserider, the log combines classic rocker and rail shape with a more modern volume distribution that allows for a much more user friendly experience for riders of all levels. 50/50 rails and increased tail rocker allow for maximum hold and control while riding the nose. Within the glass job comes a standard knee paddle patch that adds extra strength to the deck of the board and an increased amount of weight to create a smooth glide through the water. Wether it is technical noserides, or simply just cruzing that you are after, the log is right for you! ",
@@ -293,6 +307,7 @@
         {
             "id": 21,
             "name": "Dump Truck",
+            "model": "dump-truck",
             "img": "/img/boards/main-dump-truck.jpg",
             "logo": "/img/board-models/DumptruckLogo.jpg",
             "description": "David has incorporated all of his years of shaping mastery into the ultimate summertime board. Short and wide with low entry rocker and single to double concave with vee out the tail. This performance short board is incredibly fast and loose. David rides this model with the Future T1 fins. Perfect travel board, this shape is best suited for waves one foot to head high. Get one now! ",
@@ -308,6 +323,7 @@
         {
             "id": 22,
             "name": "Silver Fish",
+            "model": "silver-fish",
             "img": "/img/boards/main-silver-fish.jpg",
             "logo": "/img/board-models/SilverfishLogo.jpg",
             "description": "The Silverfish feels very agressive and fast , with keels or standard sized twin fins. Between the bottom contours of a hull and the radical tail design.This board is very lively and goes where no fish will allow. @smell_da_resin",
@@ -323,6 +339,7 @@
         {
             "id": 23,
             "name": "The Driver",
+            "model": "driver",
             "img": "/img/boards/main-driver.jpg",
             "logo": "/img/board-models/DriverLogo.jpg",
             "description": "The Driver is my favorite rounded pin, performance shortboard. With a full outline and 16 inch tail, it picks up and moves at hyper-speed! The single concave holds that speed through the turns to the point that I almost buckled my knee on one of the fastest round-house cutbacks of my life last January. People came up to me and were super excited about how fast I was turning the board!",
@@ -338,6 +355,7 @@
         {
             "id": 24,
             "name": "The Pitbull",
+            "model": "pitbull",
             "img": "/img/boards/main-pitbull.jpg",
             "logo": "/img/board-models/PitbullLogo.png",
             "description": "The Pitbull is as comfortable going vertical as it driving through sections. The displacement hull belly transitions to a double concave and a V panel behind the rear fin. The narrower tail and outline is the next step in my refinement of high performance Simmons inspired hulls.",

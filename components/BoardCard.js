@@ -57,7 +57,7 @@ export default function BoardCard(props) {
           <CardBody>
             <div style={{ position: "absolute", bottom: 0, left: 40, right: 40, paddingTop: "20px" }}>
               <h4 style={{ textAlign: "center", paddingTop: "20px" }}><strong>{props.name}</strong></h4>
-              <Link href={"/board-page/" + model}>
+              <Link href={"/board-page/" + props.model}>
                 <Button
                   color="primary"
                   simple

@@ -54,7 +54,7 @@ export default function Footer(props) {
             
             
             <ListItem className={classes.inlineBlock}>
-              <h4 lassName={classes.block}><strong>ph. 831-234-4410</strong></h4>
+              <h4 className={classes.block}><strong>ph. 831-234-4410</strong></h4>
             </ListItem>
 
           </List>
@@ -63,7 +63,7 @@ export default function Footer(props) {
         <div >
           <ListItem className={classes.inlineBlock}>
 
-              <h5 lassName={classes.block}>381 Pine St, Watsonville, CA 95076</h5>
+              <h5 className={classes.block}>381 Pine St, Watsonville, CA 95076</h5>
             </ListItem>
         </div>
       </div>
