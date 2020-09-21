@@ -42,7 +42,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax  responsive image={require("public/img/4mile.jpeg")}>
+      <Parallax  responsive image={require("public/img/tube.jpg")}>
         <div style={{color: "black", display: "flex", justifyContent: "left"}} className={classes.container}>
           <GridContainer style={{marginLeft: "15px"}}>
             <GridItem xs={12} sm={12} md={6}>
@@ -51,7 +51,7 @@ export default function LandingPage(props) {
               <strong>From beginner to professional, Vernor Surfboards has a wide range of boards to choose from.</strong>
               </h4>
               <br />
-              <Button
+              {/* <Button
                 color="danger"
                 size="lg"
                 href="https://www.youtube.com/watch?v=OM6Ln27qjCs"
@@ -60,7 +60,7 @@ export default function LandingPage(props) {
               >
                 <i className="fas fa-play" />
                 Watch video
-              </Button>
+              </Button> */}
             </GridItem>
           </GridContainer>
         </div>
