@@ -8,9 +8,6 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
-import Button from "components/CustomButtons/Button.js";
-import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 
 
@@ -32,35 +29,14 @@ export default function BoardPage({ props, boardData }) {
 
     let boardDetail = {}
     boardData.boards.forEach(element => {
-        // console.log(element.name.toLowerCase())
-        // console.log("id: " + id);
         if (element.model === id) {
             boardDetail = element;
-            // console.log("boardDetail" + ' ' + JSON.stringify(boardDetail));
-
         }
     });
 
-    console.log("boardDetail.image " + boardDetail.img);
-
-    if (JSON.stringify(boardDetail) === JSON.stringify({})) {
-        // router.push('/')
-    }
-
-    // boardData.boards
-    // console.log("sasds" + boardData.boards[0].name);
 
     const classes = useStyles();
     const { ...rest } = props;
-    const imageClasses = classNames(
-        classes.imgRaised,
-        classes.imgRoundedCircle,
-        classes.imgFluid
-    );
-    const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
-
-    console.log(`{id}`)
-    console.log("router.query: " + router.query['board-page'])
 
     return (
         <div>
@@ -75,7 +51,8 @@ export default function BoardPage({ props, boardData }) {
             </div>
 
 
-            <div className={classNames(classes.main)} style={{ padding: "120px" }}>
+            <div className={classNames(classes.main)} style={{ paddingTop: "120px", padding: "15px" }}>
+                <div style={{margin:"0 auto", maxWidth: "1140px"}}>
                 <h3>{boardDetail.name}</h3>
                 <img
                     style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto"}}
@@ -100,6 +77,7 @@ export default function BoardPage({ props, boardData }) {
                     <h6>Volume: {boardDetail.dims.Volume}</h6>
                 </div>
             </div>
+            </div>
             <style jsx>{`
                 h3 {
                     font-weight:bold;
@@ -107,6 +85,9 @@ export default function BoardPage({ props, boardData }) {
                 }
                 p {
                     text-align:center;
+                }
+                .board-container {
+                    max-width:500px
                 }
                 @media (min-width: 600px) {
                     p {
@@ -129,7 +110,7 @@ export default function BoardPage({ props, boardData }) {
     );
 }
 
-export async function getStaticProps(context) {
+export async function getStaticProps() {
 
     return {
         props: {
