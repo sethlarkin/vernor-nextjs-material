@@ -21416,10 +21416,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-var _this = undefined,
-    _jsxFileName = "/Users/sethlarkin/Desktop/Dev/Web/next.js/vernor-nextjs-material/pages/_app.js";
-
+var _jsxFileName = "/Users/sethlarkin/Desktop/Dev/Web/next.js/vernor-nextjs-material/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_6__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_5__["default"])(this, result); }; }
@@ -21449,28 +21446,22 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-
-next_router__WEBPACK_IMPORTED_MODULE_11___default.a.events.on("routeChangeStart", function (url) {
-  console.log("Loading: ".concat(url));
-  document.body.classList.add("body-page-transition");
-  react_dom__WEBPACK_IMPORTED_MODULE_8___default.a.render(__jsx(components_PageChange_PageChange_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    path: url,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 5
-    }
-  }), document.getElementById("page-transition"));
-});
-next_router__WEBPACK_IMPORTED_MODULE_11___default.a.events.on("routeChangeComplete", function () {
-  react_dom__WEBPACK_IMPORTED_MODULE_8___default.a.unmountComponentAtNode(document.getElementById("page-transition"));
-  document.body.classList.remove("body-page-transition");
-});
-next_router__WEBPACK_IMPORTED_MODULE_11___default.a.events.on("routeChangeError", function () {
-  react_dom__WEBPACK_IMPORTED_MODULE_8___default.a.unmountComponentAtNode(document.getElementById("page-transition"));
-  document.body.classList.remove("body-page-transition");
-});
+ // Router.events.on("routeChangeStart", url => {
+//   console.log(`Loading: ${url}`);
+//   document.body.classList.add("body-page-transition");
+//   ReactDOM.render(
+//     <PageChange path={url} />,
+//     document.getElementById("page-transition")
+//   );
+// });
+// Router.events.on("routeChangeComplete", () => {
+//   ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
+//   document.body.classList.remove("body-page-transition");
+// });
+// Router.events.on("routeChangeError", () => {
+//   ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
+//   document.body.classList.remove("body-page-transition");
+// });
 
 var MyApp = /*#__PURE__*/function (_App) {
   Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MyApp, _App);
