@@ -76,6 +76,17 @@ export default function BoardPage({ props, boardData }) {
                         <h6>Thickness: {boardDetail.dims.Thickness}</h6>
                         <h6>Volume: {boardDetail.dims.Volume}</h6>
                     </div>
+                    <br />
+                    <div>
+                    <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/fPmplk0aAA8" 
+                        frameBorder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowFullScreen>
+                    </iframe>
+                    </div>
                 </div>
             </div>
             <style jsx>{`
