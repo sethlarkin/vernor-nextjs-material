@@ -39,7 +39,7 @@ export default function BoardPage({ props, boardData }) {
     const { ...rest } = props;
 
     return (
-        <div>
+        <div >
             <div>
                 <Header
                     color="white"
@@ -51,32 +51,32 @@ export default function BoardPage({ props, boardData }) {
             </div>
 
 
-            <div className={classNames(classes.main)} style={{ paddingTop: "120px", padding: "15px" }}>
-                <div style={{margin:"0 auto", maxWidth: "1140px"}}>
-                <h3>{boardDetail.name}</h3>
-                <img
-                    style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto"}}
-                    src={boardDetail.logo}
-                    alt="Board Logo"
-                />
-                <img
-                    style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
-                    src={boardDetail.img}
-                    alt="BarracBoard Imageuda"
-                />
-                <hr />
-                <div >
-                    <br />
-                    <p><strong>{boardDetail.description}</strong></p>
+            <div className={classNames(classes.main)}>
+                <div className='board-container'>
+                    <h3>{boardDetail.name}</h3>
+                    <img
+                        style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto" }}
+                        src={boardDetail.logo}
+                        alt="Board Logo"
+                    />
+                    <img
+                        style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
+                        src={boardDetail.img}
+                        alt="BarracBoard Imageuda"
+                    />
                     <hr />
-                    <h6>Size Range: {boardDetail.dims.range}</h6>
-                    <h6>Nose: {boardDetail.dims.Nose}</h6>
-                    <h6>Middle: {boardDetail.dims.Middle}</h6>
-                    <h6>Tail: {boardDetail.dims.Tail}</h6>
-                    <h6>Thickness: {boardDetail.dims.Thickness}</h6>
-                    <h6>Volume: {boardDetail.dims.Volume}</h6>
+                    <div >
+                        <br />
+                        <p><strong>{boardDetail.description}</strong></p>
+                        <hr />
+                        <h6>Size Range: {boardDetail.dims.range}</h6>
+                        <h6>Nose: {boardDetail.dims.Nose}</h6>
+                        <h6>Middle: {boardDetail.dims.Middle}</h6>
+                        <h6>Tail: {boardDetail.dims.Tail}</h6>
+                        <h6>Thickness: {boardDetail.dims.Thickness}</h6>
+                        <h6>Volume: {boardDetail.dims.Volume}</h6>
+                    </div>
                 </div>
-            </div>
             </div>
             <style jsx>{`
                 h3 {
@@ -86,10 +86,23 @@ export default function BoardPage({ props, boardData }) {
                 p {
                     text-align:center;
                 }
+                .red {
+                    color: red;
+                }
                 .board-container {
-                    max-width:500px
+                    margin-top: 50px;
+                    padding:5px
                 }
                 @media (min-width: 600px) {
+                    .board-container {
+                        margin: 100px 5px 5px 0px;
+
+                        min-height: 40%;
+                        padding: 5px;
+                    }
+                    .main {
+                        margin-top: 70px;
+                    }
                     p {
                         // float:right;
                         text-align:left;
@@ -115,19 +128,18 @@ export async function getStaticProps() {
     return {
         props: {
             boardData
-      },
+        },
     }
-  }
+}
 
-  // This function gets called at build time
+// This function gets called at build time
 export async function getStaticPaths() {
 
     console.log('[board-page] boardData' + boardData)
     // Get the paths we want to pre-render based on posts
     const paths = boardData.boards.map((board) => `/board-page/${board.model}`)
-  
+
     // We'll pre-render only these paths at build time.
     // { fallback: false } means other routes should 404.
     return { paths, fallback: false }
-  }
-  
+}

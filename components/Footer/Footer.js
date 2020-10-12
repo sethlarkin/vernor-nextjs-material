@@ -31,6 +31,7 @@ export default function Footer(props) {
       <div className={classes.container}>
         {/* <div className={classes.left}> */}
         <div >
+          <hr/>
           <List className={classes.list}>
 
             {/* <ListItem className={classes.inlineBlock}>
@@ -51,20 +52,16 @@ export default function Footer(props) {
                 Blog
               </a>
             </ListItem> */}
-            
-            
+
+
             <ListItem className={classes.inlineBlock}>
               <h4 className={classes.block}><strong>ph. 831-234-4410</strong></h4>
             </ListItem>
-
-          </List>
-        </div>
-        {/* <div className={classes.right}> */}
-        <div >
-          <ListItem className={classes.inlineBlock}>
-
+            <ListItem className={classes.inlineBlock}>
               <h5 className={classes.block}>381 Pine St, Watsonville, CA 95076</h5>
             </ListItem>
+          </List>
+          <hr/>
         </div>
       </div>
     </footer>
