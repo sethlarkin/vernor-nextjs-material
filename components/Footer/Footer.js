@@ -60,6 +60,9 @@ export default function Footer(props) {
             <ListItem className={classes.inlineBlock}>
               <h5 className={classes.block}>381 Pine St, Watsonville, CA 95076</h5>
             </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <h5 className={classes.block}><a href="mailto: verndog@cruzio.com?">email</a></h5>
+            </ListItem>
           </List>
           <hr/>
         </div>
