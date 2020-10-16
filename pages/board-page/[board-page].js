@@ -40,7 +40,7 @@ export default function BoardPage({ props, boardData }) {
 
     return (
         <div >
-            <div>
+            {/* <div>
                 <Header
                     color="white"
                     brand="NextJS Material Kit"
@@ -48,7 +48,7 @@ export default function BoardPage({ props, boardData }) {
                     fixed
                     {...rest}
                 />
-            </div>
+            </div> */}
 
 
             <div className={classNames(classes.main)}>
@@ -142,20 +142,20 @@ export default function BoardPage({ props, boardData }) {
                       }
                       
                       .left {
-                        width: 25%;
+                        // width: 25%;
 
                       }
                       
                       .right {
-                        width: 75%;
+                        // width: 75%;
                       }
                       .footer {
-                            bottom: 0;
-                            margin-top: 100p;
-                            width: 95%;
-                            position: fixed;
-                            height: 200px;
-                            textAlign: center;
+                        // bottom: 0;
+                        // margin-top: 100p;
+                        // width: 95%;
+                        // position: fixed;
+                        // height: 200px;
+                        // textAlign: center;
                       }
                       
                 }

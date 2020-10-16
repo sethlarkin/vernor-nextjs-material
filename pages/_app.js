@@ -19,6 +19,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
+import Header from "components/Header/Header"
+import HeaderLinks from "components/Header/HeaderLinks.js"
+import Footer from "components/Footer/Footer.js"
 import Router from "next/router";
 
 import PageChange from "components/PageChange/PageChange.js";
@@ -80,7 +83,18 @@ export default class MyApp extends App {
         <Head>
           <title>Vernor Surfboards</title>
         </Head>
+        <Header 
+        brand="NextJS Material Kit"
+        rightLinks={<HeaderLinks />}
+        fixed
+        changeColorOnScroll={{
+          height: 400,
+          color: "white"
+        }}
+         />
+        <div>JKLHJKLhJKLH</div>
         <Component {...pageProps} />
+        {/* <Footer /> */}
       </React.Fragment>
     );
   }

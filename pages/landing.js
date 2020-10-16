@@ -26,7 +26,7 @@ export default function LandingPage(props) {
   const { ...rest } = props;
   return (
     <div>
-      <Header
+      {/* <Header
         routes={dashboardRoutes}
         brand="NextJS Material Kit"
         rightLinks={<HeaderLinks />}
@@ -36,7 +36,7 @@ export default function LandingPage(props) {
           color: "white"
         }}
         {...rest}
-      />
+      /> */}
       <Parallax  responsive image={require("public/img/tube.jpg")}>
         <div style={{color: "black", display: "flex", justifyContent: "left"}} className={classes.container}>
           <GridContainer style={{marginLeft: "15px"}}>
@@ -61,7 +61,7 @@ export default function LandingPage(props) {
         </div>
       </Parallax>
      
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
