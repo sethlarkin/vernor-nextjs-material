@@ -9,7 +9,6 @@ import { List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
 
 import styles from "assets/jss/nextjs-material-kit/components/footerStyle.js";
 
@@ -20,10 +19,6 @@ export default function Footer(props) {
   const { whiteFont } = props;
   const footerClasses = classNames({
     [classes.footer]: true,
-    [classes.footerWhiteFont]: whiteFont
-  });
-  const aClasses = classNames({
-    [classes.a]: true,
     [classes.footerWhiteFont]: whiteFont
   });
   return (

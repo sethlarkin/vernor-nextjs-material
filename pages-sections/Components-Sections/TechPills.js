@@ -72,9 +72,8 @@ export default function SectionPills() {
                         <br/>
                         <h4><strong>finshing touches: vector fins make it even faster, even more responive</strong></h4>
                         <p>
-                        Another important piece to the Vernor Surfboards suspension system is the Vector double-foil fin design by Futures Fins for both side fins. This amazing new fin design generates more torque and acceleration – you can feel it on your first turn.
+                        Another important piece to the Vernor Surfboards suspension system is the Vector double-foil fin design by Futures Fins for both side fins. This amazing fin design generates more torque and acceleration – you can feel it on your first turn.
                         </p>
-                        <img src={VectorFins} alt="Vector Fins"/>
                       </span>
                     )
                   },

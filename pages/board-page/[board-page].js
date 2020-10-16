@@ -53,28 +53,40 @@ export default function BoardPage({ props, boardData }) {
 
             <div className={classNames(classes.main)}>
                 <div className='board-container'>
-                    <h3>{boardDetail.name}</h3>
-                    <img
-                        style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto" }}
-                        src={boardDetail.logo}
-                        alt="Board Logo"
-                    />
-                    <img
-                        style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
-                        src={boardDetail.img}
-                        alt="BarracBoard Imageuda"
-                    />
+                    <div className={"column left"}>
+                        <h3>{boardDetail.name}</h3>
+                        <img
+                            style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto" }}
+                            src={boardDetail.logo}
+                            alt="Board Logo"
+                        />
+                        <img
+                            style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
+                            src={boardDetail.img}
+                            alt="BarracBoard Imageuda"
+                        />
+                    </div>
+
                     <hr />
-                    <div >
-                        <br />
-                        <p><strong>{boardDetail.description}</strong></p>
-                        <hr />
-                        <h6>Size Range: {boardDetail.dims.range}</h6>
-                        <h6>Nose: {boardDetail.dims.Nose}</h6>
-                        <h6>Middle: {boardDetail.dims.Middle}</h6>
-                        <h6>Tail: {boardDetail.dims.Tail}</h6>
-                        <h6>Thickness: {boardDetail.dims.Thickness}</h6>
-                        <h6>Volume: {boardDetail.dims.Volume}</h6>
+                    <div className={"column right"}>
+                        <span>
+                            <br />
+                            <p><strong>{boardDetail.description}</strong></p>
+                            <hr />
+                            <h6>Size Range: {boardDetail.dims.range}</h6>
+                            <h6>Nose: {boardDetail.dims.Nose}</h6>
+                            <h6>Middle: {boardDetail.dims.Middle}</h6>
+                            <h6>Tail: {boardDetail.dims.Tail}</h6>
+                            <h6>Thickness: {boardDetail.dims.Thickness}</h6>
+                            <h6>Volume: {boardDetail.dims.Volume}</h6>
+                            <p><strong>--------</strong></p>
+                            <h4><strong>Prices:</strong></h4>
+                            <h6>Epoxy: ${boardDetail.eps_price}</h6>
+                            <h6>Polyester: ${boardDetail.poly_price}</h6>
+                            <h6>With suspension: + $60</h6>
+                            <h6>Stringerless carbon strip flex deck!!!: + $30 (available in all models)</h6>
+                        </span>
+
                     </div>
                     <br />
                     {/* <div>
@@ -89,6 +101,8 @@ export default function BoardPage({ props, boardData }) {
                     </div> */}
                 </div>
             </div>
+            <div className={"footer"}><Footer /></div>
+
             <style jsx>{`
                 h3 {
                     font-weight:bold;
@@ -104,7 +118,7 @@ export default function BoardPage({ props, boardData }) {
                     margin-top: 50px;
                     padding:5px
                 }
-                @media (min-width: 600px) {
+                @media (min-width: 840px) {
                     .board-container {
                         margin: 100px 5px 5px 0px;
 
@@ -122,6 +136,28 @@ export default function BoardPage({ props, boardData }) {
                         float:left;
                         padding-right:20px;
                     }
+                    .column {
+                        float: left;
+                        max-height:65%;
+                      }
+                      
+                      .left {
+                        width: 25%;
+
+                      }
+                      
+                      .right {
+                        width: 75%;
+                      }
+                      .footer {
+                            bottom: 0;
+                            margin-top: 100p;
+                            width: 95%;
+                            position: fixed;
+                            height: 200px;
+                            textAlign: center;
+                      }
+                      
                 }
             `}</style>
             <style global jsx>{`
@@ -129,7 +165,7 @@ export default function BoardPage({ props, boardData }) {
                 //     background: black;
                 // }
             `}</style>
-            <div><Footer /></div>
+
         </div >
     );
 }

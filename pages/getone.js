@@ -40,8 +40,8 @@ export default function ProfilePage({ props }) {
       />
 
       <div className={classNames(classes.main)}>
-        <div style={{marginTop: "72px", display:"grid", placeItems: "center"}}>
-          <h3 style={{textAlign:"center"}}><strong>Vernor surfboards are available at these fine retailers</strong></h3>
+        <div style={{marginTop: "120px"}}>
+          <h3 style={{textAlign:"center"}}><strong>Vernor surfboards are available at these core surf shops</strong></h3>
           <div className={classes.container} style={{ }}>
             {shopData.shops.map(shop => (
               <React.Fragment>
