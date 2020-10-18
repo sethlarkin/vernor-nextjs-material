@@ -5,10 +5,10 @@
             "locations": [
                 {
                     "id": 1,
-                    "name": "2 Mile Surf Shop",
-                    "address": "22 Brighton ave. Bolinas, CA",
-                    "phone": "415-868-0264",
-                    "site": "www.2milesurf.com"
+                    "name": "Azhiaziam",
+                    "address": "1140 Front St, Unit B, Morro Bay, CA 93442, United States",
+                    "phone": "1(805) 771-0199",
+                    "site": "www.azhiaziam.com/"
                 },
                 {
                     "id": 2,
@@ -33,10 +33,10 @@
                 },
                 {
                     "id": 5,
-                    "name": "Neighborhood Board Shop",
-                    "address": "685 11th St, Arcata, CA 95521",
-                    "phone": "707-822-7873",
-                    "site": "www.theneighborhoodhumboldt.com"
+                    "name": "Good Clean Fun",
+                    "address": "136 Ocean Front Ave, Cayucos, CA 93430",
+                    "phone": "805-995-1993",
+                    "site": "www.goodcleanfunusa.com/"
                 },
                 {
                     "id": 6,
@@ -44,20 +44,6 @@
                     "address": "575 Crespi Dr # 1, Pacifica, CA",
                     "phone": "650-359-5471",
                     "site": "www.sonlightsurfshop.com"
-                },
-                {
-                    "id": 7,
-                    "name": "Sunshine Freestyle",
-                    "address": "443 Lighthouse Avenue, Monterey, CA ",
-                    "phone": "831-375-5015",
-                    "site": "www.sunshinefreestyle.com"
-                },
-                {
-                    "id": 8,
-                    "name": "Sonoma Coast Surf Shop",
-                    "address": "9 — 4th St, Petaluma, CA 94952",
-                    "phone": "707-763-3860",
-                    "site": "www.sonomacoastsurfshop.com"
                 }
             ]
         },
@@ -65,31 +51,18 @@
             "state": "Maryland",
             "locations": [
                 {
-                    "id": 1,
-                    "name": "Chauncey's Surf Shop",
-                    "address": "2908 Coastal Highway, Ocean City, MD",
-                    "phone": "410-289-7405",
-                    "site": "www.chaunceyssurfshop.com"
-                },
-                {
                     "id": 2,
                     "name": "Chauncey's Surf Shop",
                     "address": "5309 Coastal Highway, Ocean City, MD",
                     "phone": "410-524-6005",
-                    "site": "www.chaunceyssurfshop.com"
+                    "site": "www.chaunceyssurforama.com"
                 }
             ]
         },
         {
             "state": "North Carolina",
             "locations": [
-                {
-                    "id": 1,
-                    "name": "AB Surf Shop",
-                    "address": "515 West Fort Mason Road., Atlantic Beach NC",
-                    "phone": "252-726-9382",
-                    "site": "www.absurfshop.com"
-                },
+               
                 {
                     "id": 2,
                     "name": "Aussie Island",
@@ -117,13 +90,6 @@
                     "address": "25706 North Carolina 12, Waves, NC 27982 - 252-987-6000",
                     "phone": "866-REAL-548 ",
                     "site": "www.realwatersports.com/collections/vernor-surfboards"
-                },
-                {
-                    "id": 6,
-                    "name": "Whalebone Surf Shop",
-                    "address": "2214 S. Croatan Hwy, Nags Head, NC - 252-441-6747",
-                    "phone": "877-855-1975 ",
-                    "site": "www.whalebonesurfshop.com"
                 }
             ]
         },
