@@ -9,7 +9,7 @@ import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import TechPills from "pages-sections/Components-Sections/TechPills.js";
-
+import YouTube from "react-youtube"
 
 
 import SuspensionBoard from "assets/img/suspension-diamond-quad-bottom.jpg"
@@ -21,6 +21,14 @@ const useStyles = makeStyles(styles);
 export default function ProfilePage(props) {
   const classes = useStyles();
   const { ...rest } = props;
+  const opts = {
+    height: '220',
+    width: '320',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      // autoplay: 1,
+    },
+  };
   return (
     <div>
       <Header
@@ -33,11 +41,25 @@ export default function ProfilePage(props) {
       />
       <div className={classNames(classes.main)}>
         <p style={{ align: "center" }}>
-          <img src={SuspensionBoard} alt="Suspension Board" style={{ width: "70%", display:"block", marginLeft:"auto", marginRight: "auto", marginTop: "70px", paddingTop:"75px" }} />
+          <img src={SuspensionBoard} alt="Suspension Board" style={{ width: "70%", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "70px", paddingTop: "75px" }} />
         </p>
         <TechPills />
+        <div className="video">
+          <YouTube videoId='9APYuwurKBQ' opts={opts} />
+        </div>
       </div>
       <Footer />
+      <style jsx>{` 
+        .video {
+            // width: 640px;
+            margin: 0 5%;
+            display: block;
+            padding-top: 5px;
+            margin-left: 10%;
+            margin-right: 10%;
+        },
+
+      `}</style>
     </div>
   );
 }
