@@ -1,0 +1,165 @@
+webpackHotUpdate("static/development/pages/tech.js",{
+
+/***/ "./pages/tech.js":
+/*!***********************!*\
+  !*** ./pages/tech.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ProfilePage; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var components_Header_Header_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! components/Header/Header.js */ "./components/Header/Header.js");
+/* harmony import */ var components_Footer_Footer_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! components/Footer/Footer.js */ "./components/Footer/Footer.js");
+/* harmony import */ var components_Header_HeaderLinks_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! components/Header/HeaderLinks.js */ "./components/Header/HeaderLinks.js");
+/* harmony import */ var pages_sections_Components_Sections_TechPills_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! pages-sections/Components-Sections/TechPills.js */ "./pages-sections/Components-Sections/TechPills.js");
+/* harmony import */ var react_youtube__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-youtube */ "./node_modules/react-youtube/dist/index.esm.js");
+/* harmony import */ var assets_img_suspension_diamond_quad_bottom_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! assets/img/suspension-diamond-quad-bottom.jpg */ "./assets/img/suspension-diamond-quad-bottom.jpg");
+/* harmony import */ var assets_img_suspension_diamond_quad_bottom_jpg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(assets_img_suspension_diamond_quad_bottom_jpg__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var assets_jss_nextjs_material_kit_pages_profilePage_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! assets/jss/nextjs-material-kit/pages/profilePage.js */ "./assets/jss/nextjs-material-kit/pages/profilePage.js");
+
+var _jsxFileName = "/Users/sethlarkin/Desktop/Dev/Web/next.js/vernor-nextjs-material/pages/tech.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+ // nodejs library that concatenates classes
+
+ // @material-ui/core components
+
+ // @material-ui/icons
+// core components
+
+
+
+
+
+
+
+
+var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__["makeStyles"])(assets_jss_nextjs_material_kit_pages_profilePage_js__WEBPACK_IMPORTED_MODULE_11__["default"]);
+function ProfilePage(props) {
+  var classes = useStyles();
+
+  var rest = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props);
+
+  var opts = {
+    height: '390',
+    width: '640',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1
+    }
+  };
+  return __jsx("div", {
+    className: "jsx-4001555010",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 5
+    }
+  }, __jsx(components_Header_Header_js__WEBPACK_IMPORTED_MODULE_5__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    color: "white",
+    brand: "NextJS Material Kit",
+    rightLinks: __jsx(components_Header_HeaderLinks_js__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 21
+      }
+    }),
+    fixed: true
+  }, rest, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 7
+    }
+  })), __jsx("div", {
+    className: "jsx-4001555010" + " " + (classnames__WEBPACK_IMPORTED_MODULE_3___default()(classes.main) || ""),
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 7
+    }
+  }, __jsx("p", {
+    style: {
+      align: "center"
+    },
+    className: "jsx-4001555010",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    src: assets_img_suspension_diamond_quad_bottom_jpg__WEBPACK_IMPORTED_MODULE_10___default.a,
+    alt: "Suspension Board",
+    style: {
+      width: "70%",
+      display: "block",
+      marginLeft: "auto",
+      marginRight: "auto",
+      marginTop: "70px",
+      paddingTop: "75px"
+    },
+    className: "jsx-4001555010",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 11
+    }
+  })), __jsx("div", {
+    className: "jsx-4001555010" + " " + "video",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 9
+    }
+  }, __jsx(react_youtube__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    videoId: "cjbQZXyZ2SI",
+    className: "red",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 11
+    }
+  })), __jsx(pages_sections_Components_Sections_TechPills_js__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 9
+    }
+  })), __jsx(components_Footer_Footer_js__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 7
+    }
+  }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    id: "4001555010",
+    __self: this
+  }, ".video.jsx-4001555010{width:640px;margin:0 5%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding-top:25px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9zZXRobGFya2luL0Rlc2t0b3AvRGV2L1dlYi9uZXh0LmpzL3Zlcm5vci1uZXh0anMtbWF0ZXJpYWwvcGFnZXMvdGVjaC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvRGtCLEFBR3lCLFlBQ0EsWUFDQywwRUFDSSxpQkFDckIiLCJmaWxlIjoiL1VzZXJzL3NldGhsYXJraW4vRGVza3RvcC9EZXYvV2ViL25leHQuanMvdmVybm9yLW5leHRqcy1tYXRlcmlhbC9wYWdlcy90ZWNoLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuLy8gbm9kZWpzIGxpYnJhcnkgdGhhdCBjb25jYXRlbmF0ZXMgY2xhc3Nlc1xuaW1wb3J0IGNsYXNzTmFtZXMgZnJvbSBcImNsYXNzbmFtZXNcIjtcbi8vIEBtYXRlcmlhbC11aS9jb3JlIGNvbXBvbmVudHNcbmltcG9ydCB7IG1ha2VTdHlsZXMgfSBmcm9tIFwiQG1hdGVyaWFsLXVpL2NvcmUvc3R5bGVzXCI7XG4vLyBAbWF0ZXJpYWwtdWkvaWNvbnNcbi8vIGNvcmUgY29tcG9uZW50c1xuaW1wb3J0IEhlYWRlciBmcm9tIFwiY29tcG9uZW50cy9IZWFkZXIvSGVhZGVyLmpzXCI7XG5pbXBvcnQgRm9vdGVyIGZyb20gXCJjb21wb25lbnRzL0Zvb3Rlci9Gb290ZXIuanNcIjtcbmltcG9ydCBIZWFkZXJMaW5rcyBmcm9tIFwiY29tcG9uZW50cy9IZWFkZXIvSGVhZGVyTGlua3MuanNcIjtcbmltcG9ydCBUZWNoUGlsbHMgZnJvbSBcInBhZ2VzLXNlY3Rpb25zL0NvbXBvbmVudHMtU2VjdGlvbnMvVGVjaFBpbGxzLmpzXCI7XG5pbXBvcnQgWW91VHViZSBmcm9tIFwicmVhY3QteW91dHViZVwiXG5cblxuaW1wb3J0IFN1c3BlbnNpb25Cb2FyZCBmcm9tIFwiYXNzZXRzL2ltZy9zdXNwZW5zaW9uLWRpYW1vbmQtcXVhZC1ib3R0b20uanBnXCJcblxuaW1wb3J0IHN0eWxlcyBmcm9tIFwiYXNzZXRzL2pzcy9uZXh0anMtbWF0ZXJpYWwta2l0L3BhZ2VzL3Byb2ZpbGVQYWdlLmpzXCI7XG5cbmNvbnN0IHVzZVN0eWxlcyA9IG1ha2VTdHlsZXMoc3R5bGVzKTtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUHJvZmlsZVBhZ2UocHJvcHMpIHtcbiAgY29uc3QgY2xhc3NlcyA9IHVzZVN0eWxlcygpO1xuICBjb25zdCB7IC4uLnJlc3QgfSA9IHByb3BzO1xuICBjb25zdCBvcHRzID0ge1xuICAgIGhlaWdodDogJzM5MCcsXG4gICAgd2lkdGg6ICc2NDAnLFxuICAgIHBsYXllclZhcnM6IHtcbiAgICAgIC8vIGh0dHBzOi8vZGV2ZWxvcGVycy5nb29nbGUuY29tL3lvdXR1YmUvcGxheWVyX3BhcmFtZXRlcnNcbiAgICAgIGF1dG9wbGF5OiAxLFxuICAgIH0sXG4gIH07XG4gIFxuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8SGVhZGVyXG4gICAgICAgIGNvbG9yPVwid2hpdGVcIlxuICAgICAgICBicmFuZD1cIk5leHRKUyBNYXRlcmlhbCBLaXRcIlxuICAgICAgICByaWdodExpbmtzPXs8SGVhZGVyTGlua3MgLz59XG4gICAgICAgIGZpeGVkXG5cbiAgICAgICAgey4uLnJlc3R9XG4gICAgICAvPlxuICAgICAgPGRpdiBjbGFzc05hbWU9e2NsYXNzTmFtZXMoY2xhc3Nlcy5tYWluKX0+XG4gICAgICAgIDxwIHN0eWxlPXt7IGFsaWduOiBcImNlbnRlclwiIH19PlxuICAgICAgICAgIDxpbWcgc3JjPXtTdXNwZW5zaW9uQm9hcmR9IGFsdD1cIlN1c3BlbnNpb24gQm9hcmRcIiBzdHlsZT17eyB3aWR0aDogXCI3MCVcIiwgZGlzcGxheTogXCJibG9ja1wiLCBtYXJnaW5MZWZ0OiBcImF1dG9cIiwgbWFyZ2luUmlnaHQ6IFwiYXV0b1wiLCBtYXJnaW5Ub3A6IFwiNzBweFwiLCBwYWRkaW5nVG9wOiBcIjc1cHhcIiB9fSAvPlxuICAgICAgICA8L3A+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidmlkZW9cIj5cbiAgICAgICAgICA8WW91VHViZSB2aWRlb0lkPSdjamJRWlh5WjJTSScgY2xhc3NOYW1lPSdyZWQnLz5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxUZWNoUGlsbHMgLz5cbiAgICAgIDwvZGl2PlxuICAgICAgPEZvb3RlciAvPlxuICAgICAgPHN0eWxlIGpzeD57YCBcbiAgICAgICAgLnZpZGVvIHtcbiAgICAgICAgICAgIHdpZHRoOiA2NDBweDtcbiAgICAgICAgICAgIG1hcmdpbjogMCA1JTtcbiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgICBwYWRkaW5nLXRvcDogMjVweDtcbiAgICAgICAgfSxcbiAgICAgICAgLnJlZCB7XG4gICAgICAgICAgLy8gd2lkdGg6IDIwMCVcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl19 */\n/*@ sourceURL=/Users/sethlarkin/Desktop/Dev/Web/next.js/vernor-nextjs-material/pages/tech.js */"));
+}
+
+/***/ })
+
+})
+//# sourceMappingURL=tech.js.80f4215df3b0236daebd.hot-update.js.map
