@@ -15,9 +15,68 @@
                 "Thickness": "3\"",
                 "Volume": "(7'0\"): 46.5 liters (131 Dr Peppers)"
             },
-            "video": "https://www.youtube.com/watch?v=fPmplk0aAA8&feature=emb_title",
             "eps_price": "869.00",
-            "poly_price": "769.00"
+            "poly_price": "769.00",
+            "video": "pht4UZHE0KQ"
+        },
+        {
+            "id": 5,
+            "name": "Mini Simmons",
+            "model": "mini-simmons",
+            "img": "/img/boards/main-mini-simmons.jpg",
+            "logo": "/img/board-models/MiniSimmonsLogo.jpg",
+            "description": "Old and new ideas come together, this displacement hull and almost no rocker has been improved by ending the tail with a double con cave and a 4-fin setup. the fastest board I've ever ridden. - David Vernor",
+            "dims": {
+                "range": "5' - 6'4\"",
+                "Nose": "18 1/8\"",
+                "Middle": "22\"",
+                "Tail": "17 3/4\"",
+                "Thickness": "2 3/4\"",
+                "Volume": "(5'10\"): 41.3 liters (116 Dr Peppers)"
+            },
+            "eps_price": "799.00",
+            "poly_price": "699.00",
+            "video": "fPmplk0aAA8"
+
+        },
+        {
+            "id": 18,
+            "name": "The Wild Thing",
+            "model": "wild-thing",
+            "img": "/img/boards/main-wild-thing.jpg",
+            "logo": "/img/board-models/WildthingLogo.jpg",
+            "description": "This is the Wild Thing! A hybrid Simmons that turns like a performance shortboard. It can be configured as a 4-fin or 3-fin, has bottom contours and concaves of the Mini Simmons, has a flatter deck and a more aggressive tail rocker. It is a little narrower and about 1 1/2 liters (4 beers) less volume than the Mini Simmons. The Wild Thing is a great summer board to get WILD on!",
+            "dims": {
+                "range": "4'8\" - 6'4\"",
+                "Nose": "16 5/8\"",
+                "Middle": "22\"",
+                "Tail": "21 3/8",
+                "Thickness": "2 5/8",
+                "Volume": "(5'10\"): 39 liters (110 Dr Peppers)"
+            },
+            "eps_price": "799.00",
+            "poly_price": "669.00",
+            "video": "EvJ7KKSK8Ec"
+        },
+        {
+            "id": 4,
+            "name": "Barracuda",
+            "model": "barracuda",
+            "img": "/img/boards/main-barracuda.jpg",
+            "logo": "/img/board-models/BarracudaLogo.png",
+            "description": "The Barracuda is our version of a high-performance four fin fish, with more short board feeling rails and a thinned out tail! This board glides like a fish and explodes and reacts like your normal short board. The quad-fin set up holds a higher line in the more critical part of the wave. The Barracuda gives you the best of both worlds. - David Vernor",
+            "dims": {
+                "range": "5' - 6'4\"",
+                "Nose": "16 5/8\"",
+                "Middle": "21 1/4\"",
+                "Tail": "15 7/8\"",
+                "Thickness": "2 5/8\"",
+                "Volume": "(6'0\"): 32.8 liters (92 Dr Peppers)"
+            },
+            "eps_price": "769.00",
+            "poly_price": "669.00",
+            "video": "6Z3zfuCINaE"
+
         },
         {
             "id": 2,
@@ -52,42 +111,6 @@
                 "Thickness": "2 1/4\"",
                 "Volume": "(5'10\"): 38 liters (107 Dr Peppers)"
             }
-        },
-        {
-            "id": 4,
-            "name": "Barracuda",
-            "model": "barracuda",
-            "img": "/img/boards/main-barracuda.jpg",
-            "logo": "/img/board-models/BarracudaLogo.png",
-            "description": "The Barracuda is our version of a high-performance four fin fish, with more short board feeling rails and a thinned out tail! This board glides like a fish and explodes and reacts like your normal short board. The quad-fin set up holds a higher line in the more critical part of the wave. The Barracuda gives you the best of both worlds. - David Vernor",
-            "dims": {
-                "range": "5' - 6'4\"",
-                "Nose": "16 5/8\"",
-                "Middle": "21 1/4\"",
-                "Tail": "15 7/8\"",
-                "Thickness": "2 5/8\"",
-                "Volume": "(6'0\"): 32.8 liters (92 Dr Peppers)"
-            },
-            "eps_price": "769.00",
-            "poly_price": "669.00"
-        },
-        {
-            "id": 5,
-            "name": "Mini Simmons",
-            "model": "mini-simmons",
-            "img": "/img/boards/main-mini-simmons.jpg",
-            "logo": "/img/board-models/MiniSimmonsLogo.jpg",
-            "description": "Old and new ideas come together, this displacement hull and almost no rocker has been improved by ending the tail with a double con cave and a 4-fin setup. the fastest board I've ever ridden. - David Vernor",
-            "dims": {
-                "range": "5' - 6'4\"",
-                "Nose": "18 1/8\"",
-                "Middle": "22\"",
-                "Tail": "17 3/4\"",
-                "Thickness": "2 3/4\"",
-                "Volume": "(5'10\"): 41.3 liters (116 Dr Peppers)"
-            },
-            "eps_price": "799.00",
-            "poly_price": "699.00"
         },
         {
             "id": 6,
@@ -285,24 +308,7 @@
             "eps_price": "899.00",
             "poly_price": "769.00"
         },
-        {
-            "id": 18,
-            "name": "The Wild Thing",
-            "model": "wild-thing",
-            "img": "/img/boards/main-wild-thing.jpg",
-            "logo": "/img/board-models/WildthingLogo.jpg",
-            "description": "This is the Wild Thing! A hybrid Simmons that turns like a performance shortboard. It can be configured as a 4-fin or 3-fin, has bottom contours and concaves of the Mini Simmons, has a flatter deck and a more aggressive tail rocker. It is a little narrower and about 1 1/2 liters (4 beers) less volume than the Mini Simmons. The Wild Thing is a great summer board to get WILD on!",
-            "dims": {
-                "range": "4'8\" - 6'4\"",
-                "Nose": "16 5/8\"",
-                "Middle": "22\"",
-                "Tail": "21 3/8",
-                "Thickness": "2 5/8",
-                "Volume": "(5'10\"): 39 liters (110 Dr Peppers)"
-            },
-            "eps_price": "799.00",
-            "poly_price": "669.00"
-        },
+        
         {
             "id": 19,
             "name": "Silver Bullet II",
