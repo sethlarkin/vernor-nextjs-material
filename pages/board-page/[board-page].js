@@ -9,7 +9,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
-import YouTube from "react-youtube"
 
 
 import profilePageStyles from "assets/jss/nextjs-material-kit/pages/profilePage.js";
@@ -27,14 +26,6 @@ const useStyles = makeStyles(styles);
 export default function BoardPage({ props, boardData }) {
     const router = useRouter();
     const id = router.query['board-page'];
-    const opts = {
-        height: '220',
-        width: '320',
-        playerVars: {
-            // https://developers.google.com/youtube/player_parameters
-            // autoplay: 1,
-        },
-    };
 
     let boardDetail = {}
     boardData.boards.forEach(element => {
@@ -42,11 +33,6 @@ export default function BoardPage({ props, boardData }) {
             boardDetail = element;
         }
     });
-
-    let video = <br />
-    if ('video' in boardDetail) {
-        video = <YouTube videoId={boardDetail.video} opts={opts} />
-    }
 
 
     const classes = useStyles();
@@ -115,9 +101,6 @@ export default function BoardPage({ props, boardData }) {
                     </div> */}
                 </div>
             </div>
-            <div className="video">
-                {video}
-            </div>
             <div className={"footer"}><Footer /></div>
 
             <style jsx>{`
@@ -134,14 +117,6 @@ export default function BoardPage({ props, boardData }) {
                 .board-container {
                     margin-top: 50px;
                     padding:5px
-                }
-                .video {
-                    // width: 640px;
-                    margin: 0 5%;
-                    display: block;
-                    padding-top: 15px;
-                    margin-left: 10%;
-                    margin-right: 10%;
                 }
                 @media (min-width: 840px) {
                     .board-container {
@@ -175,11 +150,11 @@ export default function BoardPage({ props, boardData }) {
                         width: 75%;
                       }
                       .footer {
-                            // bottom: 0;
-                            // margin-top: 100p;
+                            bottom: 0;
+                            margin-top: 100p;
                             width: 95%;
-                            // position: fixed;
-                            // height: 200px;
+                            position: fixed;
+                            height: 200px;
                             textAlign: center;
                       }
                       
@@ -207,6 +182,7 @@ export async function getStaticProps() {
 // This function gets called at build time
 export async function getStaticPaths() {
 
+    console.log('[board-page] boardData' + boardData)
     // Get the paths we want to pre-render based on posts
     const paths = boardData.boards.map((board) => `/board-page/${board.model}`)
 
