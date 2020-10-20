@@ -360,24 +360,6 @@
             }
         },
         {
-            "id": 22,
-            "name": "Silver Fish",
-            "model": "silver-fish",
-            "img": "/img/boards/main-silver-fish.jpg",
-            "logo": "/img/board-models/SilverfishLogo.jpg",
-            "description": "The Silverfish feels very agressive and fast , with keels or standard sized twin fins. Between the bottom contours of a hull and the radical tail design.This board is very lively and goes where no fish will allow. @smell_da_resin",
-            "dims": {
-                "range": "4'8\" - 6'4\"",
-                "Nose": "16 5/8\"",
-                "Middle": "21\"",
-                "Tail": "16 3/8\"",
-                "Thickness": "2 5/8",
-                "Volume": "(5'10\"): 35 liters (98.62 Dr Peppers)"
-            },
-            "eps_price": "949.00",
-            "poly_price": "799.00"
-        },
-        {
             "id": 23,
             "name": "The Driver",
             "model": "driver",
@@ -412,6 +394,61 @@
             },
             "eps_price": "769.00",
             "poly_price": "669.00"
+        },
+        {
+            "id": 25,
+            "name": "Rocco",
+            "model": "rocco",
+            "img": "/img/boards/main-rocco.jpg",
+            "logo": "/img/board-models/rocco.png",
+            "description": "Very low entry rocker and extended tail kick for tight rail turns. The ROCCO has the deepest single concave we have ever put in a board, creating rocker on the rails and flatness through the center.",
+            "dims": {
+                "range": "5'2\" - 6'8\"",
+                "Nose": "13 3/4\"",
+                "Middle": "19 5/8\"",
+                "Tail": "15 1/4\"",
+                "Thickness": "2 3/8",
+                "Volume": ""
+            },
+            "eps_price": "699.00",
+            "poly_price": "599.00"
+        },
+        {
+            "id": 26,
+            "name": "Assassin",
+            "model": "assassin",
+            "img": "/img/boards/main-assassin.jpg",
+            "logo": "/img/board-models/VernorLogo.jpg",
+            "description": "The assassin is the big brother to the rocco, it is the best all around short board and should be ridden 1 inch shorter than your standard shorty, if you want to win heats or upgrade your stoke this is your go to board in 2 to 6 foot surf!  The first documented kickflip as performed by Zoltan Torkos using the Assassin model with I-Beam suspension.",
+            "dims": {
+                "range": "6'2\" - 6'6\"",
+                "Nose": "11 1/2\"",
+                "Middle": "18 5/8\"",
+                "Tail": "14 1/4\"",
+                "Thickness": "2 3/8",
+                "Volume": ""
+            },
+            "eps_price": "699.00",
+            "poly_price": "599.00",
+            "video": "EpWZ_-hNKKs"
+        },
+        {
+            "id": 27,
+            "name": "Hybrid",
+            "model": "hybrid",
+            "img": "/img/boards/main-hybrid.jpg",
+            "logo": "/img/board-models/VernorLogo.jpg",
+            "description": "This is the most user friendly surfboard on the market. The thickness from your crotch to your chest area resembles a 9' longboard and the width in the nose gives you a paddling advantage. From the middle of the board to the tail you have characteristics of a contemporary shortboard. Having one of these boards in your quiver will definitely improve your wave count and stoke.",
+            "dims": {
+                "range": "7'0\" - 7'10\"",
+                "Nose": "15\"",
+                "Middle": "21\"",
+                "Tail": "14\"",
+                "Thickness": "2 7/8",
+                "Volume": ""
+            },
+            "eps_price": "799.00",
+            "poly_price": "649.00"
         }
     ]
 }
