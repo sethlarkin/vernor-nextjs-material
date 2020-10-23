@@ -162,7 +162,9 @@
                 "Tail": "15 1/2",
                 "Thickness": "2 5/8",
                 "Volume": "(5'10\"): 31.5 liters (89 Dr Peppers)"
-            }
+            },
+            "eps_price": "769.00",
+            "poly_price": "669.00"
         },
         {
             "id": 9,
@@ -343,7 +345,9 @@
                 "Tail": "16",
                 "Thickness": "3 3/8",
                 "Volume": "(9'6\"): 90 liters (253 Dr Peppers)"
-            }
+            },
+            "eps_price": "949.00",
+            "poly_price": "799.00"
         },
         {
             "id": 21,
@@ -359,7 +363,9 @@
                 "Tail": "16 1/8\"",
                 "Thickness": "2 5/8",
                 "Volume": "(5'10\"): 35.5 liters (100 Dr Peppers)"
-            }
+            },
+            "eps_price": "769.00",
+            "poly_price": "669.00"
         },
         {
             "id": 23,
