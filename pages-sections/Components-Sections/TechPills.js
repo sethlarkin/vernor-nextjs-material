@@ -18,6 +18,8 @@ import VectorFins from "public/img/VectorFins.jpg"
 
 import AccessibleTable from "components/Tables/AccessibleTable.js"
 
+import CarbonDeck from "public/img/boards/main-redline.jpg"
+
 const useStyles = makeStyles(styles);
 
 export default function SectionPills() {
@@ -35,7 +37,7 @@ export default function SectionPills() {
           <GridContainer>
             <GridItem xs={12} sm={12} md={12} lg={12}>
               <NavPills
-                color="rose"
+                color="info"
                 horizontal={{
                   tabsGrid: { xs: 12, sm: 4, md: 4 },
                   contentGrid: { xs: 12, sm: 8, md: 8 }
@@ -88,6 +90,23 @@ export default function SectionPills() {
                         <br />
                         <AccessibleTable />
                         <br/>
+                      </span>
+                    )
+                  },
+                  {
+
+                    tabButton: "Stringerless Carbon-strip Flex-deck",
+                    tabContent: (
+                      <span>
+                        <h4><strong>Stringerless Carbon-strip Flex-deck</strong></h4>
+                        <p>
+                        Stringerless carbon strip flex deck!!!: + $30 (available in all models)</p>
+                        <br/>
+                        <img
+                            style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
+                            src={CarbonDeck}
+                            alt="Carbon Deck"
+                        />
                       </span>
                     )
                   }
