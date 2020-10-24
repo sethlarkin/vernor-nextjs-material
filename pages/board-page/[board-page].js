@@ -137,6 +137,7 @@ export default function BoardPage({ props, boardData }) {
                 }
                 .video {
                     // width: 640px;
+                    // height: 665px;
                     margin: 0 5%;
                     display: block;
                     padding-top: 15px;
@@ -182,6 +183,9 @@ export default function BoardPage({ props, boardData }) {
                             // height: 200px;
                             textAlign: center;
                       }
+                      .video {
+                        width: 640px;
+                        height: 665px;
                       
                 }
             `}</style>
