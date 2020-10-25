@@ -144,6 +144,16 @@ export default function BoardPage({ props, boardData }) {
                     margin-left: 10%;
                     margin-right: 10%;
                 }
+                .left {
+                    padding-left: 10px;
+                    padding-right: 5px;
+                  }
+                  .right {
+                    padding-right: 10px;
+                    padding-right: 5px;
+                    padding-bottom: 10px;
+
+                  }
                 @media (min-width: 840px) {
                     .board-container {
                         margin: 100px 5px 5px 0px;
@@ -169,11 +179,10 @@ export default function BoardPage({ props, boardData }) {
                       
                       .left {
                         width: 25%;
-
                       }
-                      
                       .right {
                         width: 75%;
+
                       }
                       .footer {
                             width: 95%;
@@ -187,12 +196,6 @@ export default function BoardPage({ props, boardData }) {
                         align-items: center;
                 }
             `}</style>
-            <style global jsx>{`
-                // body {
-                //     background: black;
-                // }
-            `}</style>
-
         </div >
     );
 }

@@ -93,6 +93,7 @@
                 "Thickness": "2 5/8\"",
                 "Volume": "(5'11\"): 33 liters (92.98 Dr Peppers)"
             },
+            "video": "4N_6j7N32aQ",
             "eps_price": "769.00",
             "poly_price": "669.00"
         },
@@ -235,6 +236,7 @@
                 "Thickness": "2 7/8",
                 "Volume": "N/A"
             },
+            "video": "6SKUSDVXQeA",
             "eps_price": "699.00",
             "poly_price": "569.00"
         },
@@ -364,6 +366,7 @@
                 "Thickness": "2 5/8",
                 "Volume": "(5'10\"): 35.5 liters (100 Dr Peppers)"
             },
+            "video": "6UcGwS7E",
             "eps_price": "769.00",
             "poly_price": "669.00"
         },
@@ -400,6 +403,7 @@
                 "Thickness": "2 1/2",
                 "Volume": "35.65 liters (101 Dr Peppers)"
             },
+            "video": "NJqDCzULoZg",
             "eps_price": "769.00",
             "poly_price": "669.00"
         },
@@ -457,6 +461,25 @@
             },
             "eps_price": "799.00",
             "poly_price": "649.00"
+        },
+        {
+            "id": 28,
+            "name": "Double Barrel Shotgun",
+            "model": "double-barrel-shotgun",
+            "img": "/img/boards/main-db-shotgun.jpg",
+            "logo": "/img/board-models/double-barrel.png",
+            "description": "The Double Barrel Shotgun (DBS) is my newest creation for the Spring/Summer of 2014. Just like the Mini Simmons and the Silver Bullet II, the DBS has a displacement hull in the front with a double concave toward the tail. This allows the board to glide across flat sections while still being able to go vertical. Adaptable in conditions from one foot up to a few feet overhead. This particular board is my favorite for traveling because it’s so versatile. The 5 fin boxes setup allows the rider to play with different fin setups. I prefer to use the Future Fins T1 setup. This board is a must for any quiver.",
+            "dims": {
+                "range": "5'2\" - 6'4\"",
+                "Nose": "15 7/16\"",
+                "Middle": "21\"",
+                "Tail": "17 5/8\"",
+                "Thickness": "2 11/16\"",
+                "Volume": "36 liters"
+            },
+            "video": "Tzeur8nH-y8",
+            "eps_price": "699.00",
+            "poly_price": "599.00"
         }
     ]
 }
