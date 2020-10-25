@@ -115,7 +115,7 @@ export default function BoardPage({ props, boardData }) {
                     </div> */}
                 </div>
             </div>
-            <div className="video">
+            <div className="video row">
                 {video}
             </div>
             <div className={"footer"}><Footer /></div>
@@ -176,17 +176,15 @@ export default function BoardPage({ props, boardData }) {
                         width: 75%;
                       }
                       .footer {
-                            // bottom: 0;
-                            // margin-top: 100p;
                             width: 95%;
-                            // position: fixed;
-                            // height: 200px;
                             textAlign: center;
                       }
                       .video {
-                        width: 640px;
-                        height: 665px;
-                      
+                        margin: auto;
+                        clear: both; 
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                 }
             `}</style>
             <style global jsx>{`
