@@ -12,7 +12,7 @@ import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import Profile from "public/img/profile.jpg";
+import Profile from "assets/img/vernor_profile.jpg";
 
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 
