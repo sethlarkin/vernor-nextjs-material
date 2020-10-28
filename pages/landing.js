@@ -42,7 +42,7 @@ export default function LandingPage(props) {
       />
       {/* <Parallax responsive image={require("public/img/tube.jpg")}> */}
         <div>
-        <div style={{ color: "black", marginTop: "115px" }} className={classes.container}>
+        <div className={`content ${classes.container}`}>
           <GridContainer style={{ marginLeft: "15px" }}>
           <GridItem xs={12} sm={12} md={6}>
               <img
@@ -91,6 +91,11 @@ export default function LandingPage(props) {
         margin: auto;
       }
 
+      .content {
+        margin-top: 115px;
+        padding-left: 0px;
+      }
+
       @media (min-width: 980px) {
         
         .profile {
@@ -98,6 +103,10 @@ export default function LandingPage(props) {
         }
         .blurb {
           padding-top 200px;
+        }
+
+        .content {
+          margin-top: 130px;
         }
       
       }
