@@ -94,6 +94,7 @@ export default function LandingPage(props) {
       .content {
         margin-top: 115px;
         padding-left: 0px;
+        color: black;
       }
 
       @media (min-width: 980px) {
