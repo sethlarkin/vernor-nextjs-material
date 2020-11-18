@@ -79,6 +79,12 @@ export default class MyApp extends App {
       <React.Fragment>
         <Head>
           <title>Vernor Surfboards</title>
+          <meta name="description" content="Quality Surfboards Custom Handmade in Santa Cruz California" />
+          <meta name="keywords" content="Surf, Surfboard, Surfing, Custom, Longboard, Shortboard, Santa Cruz, Quality, Shapes, USA" />
+          <meta name="robots" content="index, follow" />
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="language" content="English" />
+
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
