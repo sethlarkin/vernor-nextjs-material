@@ -56,7 +56,7 @@ export default function LandingPage(props) {
 
             <GridItem xs={12} sm={12} md={6} >
               {/* <div className="blurb"> */}
-              <h1 style={{ color: "black" }} className={classes.title}>High performance surfboards made in the USA</h1>
+              <h1 style={{ color: "black" }} className={classes.title}>High performance surfboards made in Santa Cruz, C</h1>
               <h4 style={{ justifyContent: "right" }}>
                 <strong>From beginner to professional, Vernor Surfboards has a wide range of boards to choose from.</strong>
               </h4>
