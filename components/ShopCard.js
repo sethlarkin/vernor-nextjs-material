@@ -23,15 +23,17 @@ export default function BoardCard(props) {
                         <address>{props.address}</address>
                         <p>{props.phone}</p>
                         <div style={{ position: "absolute", bottom: 0, left: 40, right: 40 }}>
-                            <Button
+                            { props.site != "" &&
+                                <Button
                                 color="primary"
                                 simple
                                 block
                                 href={"http://" + props.site}
                                 target="_blank"
-                            >
+                                >
                                 WEBSITE
-                            </Button>
+                                </Button>
+                            }
                         </div>
                     </CardBody>
                 </Card>

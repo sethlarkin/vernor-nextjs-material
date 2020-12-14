@@ -44,6 +44,13 @@
                     "address": "575 Crespi Dr # 1, Pacifica, CA",
                     "phone": "650-359-5471",
                     "site": "www.sonlightsurfshop.com"
+                },
+                {
+                    "id": 7,
+                    "name": "805 Boardshop",
+                    "address": "5863 Traffic Way, Atascadero, CA 93422",
+                    "phone": "805-464-2545",
+                    "site": ""
                 }
             ]
         },
