@@ -68,7 +68,7 @@ export default function Header(props) {
 
     <Link href="/landing" as="/landing">
       
-      <img src={VernorLogo} alt="Vernor Logo" style={{ width: "25%", display:"block", marginRight: "auto", marginTop: "10px" }}/>
+      <img src={VernorLogo} alt="Vernor Logo" style={{ width: "30%", display:"block", marginRight: "auto", marginTop: "10px" }}/>
     </Link>
   );
   return (
