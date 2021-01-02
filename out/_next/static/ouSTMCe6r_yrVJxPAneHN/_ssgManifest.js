@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fstoke","\u002Fgetone","\u002Fboards","\u002Fboard-page\u002F[board-page]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
