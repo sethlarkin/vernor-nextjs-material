@@ -57,6 +57,7 @@ export default function ProfilePage(props) {
             padding-top: 5px;
             margin-left: 10%;
             margin-right: 10%;
+            text-align: center;
         },
 
       `}</style>
