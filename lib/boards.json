@@ -1,6 +1,24 @@
 {
     "boards": [
         {
+            "id": 28,
+            "name": "Da Bomb",
+            "model": "da-bomb",
+            "img": "/img/boards/DaBombAll.jpg",
+            "logo": "/img/board-models/DaBombLogo.jpg",
+            "description": "I have been surfing DA BOMB now for the past month. I have been riding it in waist to 1ft overhead conditions. LOVE IT!!! This board is a rocket ship right from takeoff, tons of speed and drive. I have really enjoyed the boards response when its chest to shoulder high. I feel like it really excels in fast down the line surfing (barrels) and then releases well off the lip on finishing maneuvers. This board is the goto for small-medium size surf(2-6ft). I ride it as a quad with AM Blackstix and quad rear QDR-2.0 trailer Future fins. David knocked one out of the ballpark with a grand-slam. This board rips!!!  --- Jeff Carver, Real Watersports", 
+            "dims": {
+                "range": "5'6\" - 6'6",
+                "Nose": "15.5",
+                "Middle": "21.5",
+                "Tail": "16",
+                "Thickness": "2/6\"",
+                "Volume": "(6'0\"): 36 liters (101.44    Dr Peppers)"
+            },
+            "eps_price": "869.00",
+            "poly_price": "769.00"
+        },
+        {
             "id": 1,
             "name": "Tree Hugger",
             "model": "tree-hugger",
@@ -34,6 +52,17 @@
                 "Thickness": "2 3/4\"",
                 "Volume": "(5'10\"): 41.3 liters (116 Dr Peppers)"
             },
+            "stock_dims": [
+                {"len": "5'4", "wid": "21.75", "thic": "2.5", "vol": "33.00"},
+                {"len": "5'6", "wid": "22", "thic": "2.625", "vol": "36.17"},
+                {"len": "5'8", "wid": "22", "thic": "2.75", "vol": "39.5"},
+                {"len": "5'10", "wid": "22", "thic": "2.75", "vol": "41.37"},
+                {"len": "6'0", "wid": "22", "thic": "2.75", "vol": "42.21"},
+                {"len": "6'2", "wid": "22.625", "thic": "2.875", "vol": "47.00"},
+                {"len": "6'4", "wid": "22.75", "thic": "3.125", "vol": "51.5"},
+                {"len": "6'6", "wid": "23", "thic": "3.125", "vol": "55.00"},
+                {"len": "6'8", "wid": "22", "thic": "3", "vol": "58.2"}
+            ],
             "eps_price": "799.00",
             "poly_price": "699.00",
             "video": "OZSYeZKdlMU"

@@ -11,6 +11,7 @@ import Footer from "components/Footer/Footer.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import YouTube from "react-youtube"
 
+// import StockDimsTable from 'components/StockDimsTable.js'
 
 import profilePageStyles from "assets/jss/nextjs-material-kit/pages/profilePage.js";
 import { cardTitle } from "assets/jss/nextjs-material-kit.js";
@@ -69,15 +70,17 @@ export default function BoardPage({ props, boardData }) {
                 <div className='board-container'>
                     <div className={"column left"}>
                         <h3>{boardDetail.name}</h3>
-                        <img
-                            style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto" }}
-                            src={boardDetail.logo}
-                            alt="Board Logo"
-                        />
+                        
                         <img
                             style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
                             src={boardDetail.img}
                             alt="BarracBoard Imageuda"
+                        />
+                        <br/>
+                        <img
+                            style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto" }}
+                            src={boardDetail.logo}
+                            alt="Board Logo"
                         />
                     </div>
 
@@ -103,6 +106,8 @@ export default function BoardPage({ props, boardData }) {
 
                     </div>
                     <br />
+
+                    {/* <div><StockDimsTable className={"column right"} /></div> */}
                     {/* <div>
                         <iframe
                             width="560"
@@ -169,7 +174,7 @@ export default function BoardPage({ props, boardData }) {
                         text-align:left;
                     }
                     img {
-                        float:left;
+                        // float:left;
                         padding-right:20px;
                     }
                     .column {
