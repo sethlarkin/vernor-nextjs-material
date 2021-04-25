@@ -101,6 +101,18 @@
             ]
         },
         {
+            "state": "New York",
+            "locations": [
+                {
+                    "id": 1,
+                    "name": "Bunger Surf Shop",
+                    "address": " 50 East Main Street Babylon, NY",
+                    "phone": "1(800) 698-7873",
+                    "site": "www.bungersurf.com/"
+                }
+            ]
+        },
+        {
             "state": "South Carolina",
             "locations": [
                 {
