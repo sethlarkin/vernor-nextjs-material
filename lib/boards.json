@@ -33,7 +33,7 @@
                 "Thickness": "3\"",
                 "Volume": "(7'0\"): 46.5 liters (131 Dr Peppers)"
             },
-            "eps_price": "869.00",
+            "eps_price": "899.00",
             "poly_price": "769.00",
             "video": "pht4UZHE0KQ"
         },
@@ -140,24 +140,6 @@
                 "Tail": "14 1/4\"",
                 "Thickness": "2 1/4\"",
                 "Volume": "(5'10\"): 38 liters (107 Dr Peppers)"
-            },
-            "eps_price": "799.00",
-            "poly_price": "699.00"
-        },
-        {
-            "id": 6,
-            "name": "The Falcon",
-            "model": "falcon",
-            "img": "/img/boards/main-falcon.jpg",
-            "logo": "/img/board-models/FalconLogo.jpg",
-            "description": "The Falcon is the most versatile board in my quiver. This board goes to the beach with me whether it's waist high or overhead. It's a versatile, responsive, high performance machine. It makes waist-high groveling days fun and works in pumping barrels. I've tested this board in the beach breaks of Bethany beach Delaware, Cape Hatteras, and the reef breaks of Puerto Rico. Order yours today! - Colin Herlihy",
-            "dims": {
-                "range": "5'2\" - 6'6\"",
-                "Nose": "15 7/8\"",
-                "Middle": "19 7/8\"",
-                "Tail": "15 7/8",
-                "Thickness": "2 5/8",
-                "Volume": "(5'8\"): 32 liters (90 Dr Peppers)"
             },
             "eps_price": "799.00",
             "poly_price": "699.00"
