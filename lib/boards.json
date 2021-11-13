@@ -1,6 +1,24 @@
 {
     "boards": [
         {
+            "id": 29,
+            "name": "The Roadster",
+            "model": "roadster",
+            "img": "/img/boards/All3.jpg",
+            "logo": "/img/board-models/roadsterLogo.jpeg",
+            "description": "Dave shaped me this board about 6 years ago. I wanted a board with the wide point forward and a slight concave under the chest. He naied it! From waist-high to way overhead! Great paddler and you can ride it from the tail, or more up and it speeds through sections or flat spots. Mine is poly, but also comes in EPS.  --- Blair Rhodes - Owner, Chauncey's Surf-O-Rama", 
+            "dims": {
+                "range": "6'8 - beyond",
+                "Nose": "15.98",
+                "Middle": " 20.88",
+                "Tail": "16",
+                "Thickness": "2.63",
+                "Volume": "(6'8): 41 liters (115.5    Dr Peppers)"
+            },
+            "eps_price": "899.00",
+            "poly_price": "769.00"
+        },
+        {
             "id": 28,
             "name": "Da Bomb",
             "model": "da-bomb",
