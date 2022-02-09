@@ -78,7 +78,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>Vernor Surfboards</title>
+          <title>Vernor Surfboards | Santa Cruz</title>
           <meta name="description" content="Quality Surfboards Custom Handmade in Santa Cruz California" />
           <meta name="keywords" content="Surf, Surfboard, Surfing, Custom, Longboard, Shortboard, Santa Cruz, Quality, Shapes, USA" />
           <meta name="robots" content="index, follow" />
