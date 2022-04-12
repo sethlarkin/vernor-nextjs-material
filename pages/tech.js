@@ -44,9 +44,12 @@ export default function ProfilePage(props) {
           <img src={SuspensionBoard} alt="Suspension Board" style={{ width: "70%", display: "block", marginLeft: "auto", marginRight: "auto", marginTop: "70px", paddingTop: "75px" }} />
         </p>
         <TechPills />
-        <div className="video">
+        <span className="video">
+          <YouTube videoId='NTITDQOKepI' opts={opts} />
+        </span>
+        <span className="video">
           <YouTube videoId='9APYuwurKBQ' opts={opts} />
-        </div>
+        </span>
       </div>
       <Footer />
       <style jsx>{` 
