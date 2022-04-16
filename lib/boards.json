@@ -220,24 +220,6 @@
             "poly_price": "699.00"
         },
         {
-            "id": 10,
-            "name": "Redline",
-            "model": "redline",
-            "img": "/img/boards/main-redline.jpg",
-            "logo": "/img/board-models/RedlineLogo.jpg",
-            "description": "The new redline is an advanced to professional level surfboard. It is a single concave all the way through. Super-fast rail to rail and goes to the air in one pump! Very exciting board and also is available as a step up!",
-            "dims": {
-                "range": "4'8\" - 6'4\"",
-                "Nose": "11 3/4\"",
-                "Middle": "19\"",
-                "Tail": "14 5/8",
-                "Thickness": "2 3/8",
-                "Volume": "(6'0\"): 33 liters (93 Dr Peppers)"
-            },
-            "eps_price": "799.00",
-            "poly_price": "699.00"
-        },
-        {
             "id": 11,
             "name": "The Rubble",
             "model": "rubble",
