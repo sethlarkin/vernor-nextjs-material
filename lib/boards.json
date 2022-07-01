@@ -21,6 +21,25 @@
 
         },
         {
+            "id": 13,
+            "name": "Triplane",
+            "model": "triplane",
+            "img": "/img/boards/main-triplane.jpg",
+            "logo": "/img/board-models/TriplaneLogo.jpg",
+            "description": "The Triplane started as a design for a longboard for a person who wanted more paddling speed, and a more lively performer vs. a plank. Since its inception, it has also turned a shorter eggy-type shortboard into a mor eversatile all around knee to head-high performer. If you are looking for a board that paddles way better than its volume, but you don't have to pump it to get it going like a fish, you'll have a blast! And, if you do pump it, it flies! Dave makes this board from 6'4\" to 9'6\". EPS or POLY. The 6'4\" stringerless EPS is awesome!",
+            "dims": {
+                "range": "6'4\" - 9'6\"",
+                "Nose": "18\"",
+                "Middle": "21 7/8\"",
+                "Tail": "14 3/8",
+                "Thickness": "2 7/8",
+                "Volume": "(8'0\"): 60 liters (169 Dr Peppers)"
+            },
+            "eps_price": "1049.00",
+            "poly_price": "899.00",
+            "video": "SSjLOMlqKZM"
+        },
+        {
             "id": 30,
             "name": "Shapers Choice",
             "model": "shapers_choice",
@@ -273,24 +292,6 @@
             "video": "6SKUSDVXQeA",
             "eps_price": "799.00",
             "poly_price": "699.00"
-        },
-        {
-            "id": 13,
-            "name": "Triplane",
-            "model": "triplane",
-            "img": "/img/boards/main-triplane.jpg",
-            "logo": "/img/board-models/TriplaneLogo.jpg",
-            "description": "The Triplane started as a design for a longboard for a person who wanted more paddling speed, and a more lively performer vs. a plank. Since its inception, it has also turned a shorter eggy-type shortboard into a mor eversatile all around knee to head-high performer. If you are looking for a board that paddles way better than its volume, but you don't have to pump it to get it going like a fish, you'll have a blast! And, if you do pump it, it flies! Dave makes this board from 6'4\" to 9'6\". EPS or POLY. The 6'4\" stringerless EPS is awesome!",
-            "dims": {
-                "range": "6'4\" - 9'6\"",
-                "Nose": "18\"",
-                "Middle": "21 7/8\"",
-                "Tail": "14 3/8",
-                "Thickness": "2 7/8",
-                "Volume": "(8'0\"): 60 liters (169 Dr Peppers)"
-            },
-            "eps_price": "1049.00",
-            "poly_price": "899.00"
         },
         {
             "id": 14,
