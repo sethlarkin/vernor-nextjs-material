@@ -37,13 +37,20 @@ export default function BoardPage({ props, boardData }) {
         },
     };
 
+
+
     let boardDetail = {}
     boardData.boards.forEach(element => {
         if (element.model === id) {
             boardDetail = element;
         }
     });
-
+    
+    let special = <br />
+    if ('special' in boardDetail) {
+        special = <h4 style={{fontWeight:'700'}}>{boardDetail.special}</h4>
+    }
+    
     let video = <br />
     if ('video' in boardDetail) {
         video = <YouTube videoId={boardDetail.video} opts={opts} />
@@ -70,13 +77,13 @@ export default function BoardPage({ props, boardData }) {
                 <div className='board-container'>
                     <div className={"column left"}>
                         <h3>{boardDetail.name}</h3>
-                        
+
                         <img
                             style={{ height: "40%", display: "block", marginLeft: "auto", marginRight: "auto" }}
                             src={boardDetail.img}
                             alt="BarracBoard Imageuda"
                         />
-                        <br/>
+                        <br />
                         <img
                             style={{ height: "100px", maxWidth: "20em", display: "block", marginLeft: "auto", marginRight: "auto" }}
                             src={boardDetail.logo}
@@ -87,6 +94,9 @@ export default function BoardPage({ props, boardData }) {
                     <hr />
                     <div className={"column right"}>
                         <span>
+                            <div className="row">
+                                {special}
+                            </div>
                             <br />
                             <p><strong>{boardDetail.description}</strong></p>
                             <hr />

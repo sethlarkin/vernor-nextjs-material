@@ -24,7 +24,7 @@
             "id": 13,
             "name": "Triplane",
             "model": "triplane",
-            "img": "/img/boards/main-triplane.jpg",
+            "img": "/img/boards/trip_all_white_copy.png",
             "logo": "/img/board-models/TriplaneLogo.jpg",
             "description": "The Triplane started as a design for a longboard for a person who wanted more paddling speed, and a more lively performer vs. a plank. Since its inception, it has also turned a shorter eggy-type shortboard into a mor eversatile all around knee to head-high performer. If you are looking for a board that paddles way better than its volume, but you don't have to pump it to get it going like a fish, you'll have a blast! And, if you do pump it, it flies! Dave makes this board from 6'4\" to 9'6\". EPS or POLY. The 6'4\" stringerless EPS is awesome!",
             "dims": {
@@ -37,7 +37,8 @@
             },
             "eps_price": "1049.00",
             "poly_price": "899.00",
-            "video": "SSjLOMlqKZM"
+            "video": "SSjLOMlqKZM",
+            "special": "Celebrating 20,000 boards built with this latest Triplane personal custom!"
         },
         {
             "id": 28,
