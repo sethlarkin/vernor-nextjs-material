@@ -107,6 +107,7 @@ export default function BoardCard(props) {
                 className={classes.modalBody}
               >
                 <p><strong>{props.description}</strong></p>
+                
                 <h6>Size Range: {props.dims.range}</h6>
                 <h6>Nose: {props.dims.Nose}</h6>
                 <h6>Middle: {props.dims.Middle}</h6>

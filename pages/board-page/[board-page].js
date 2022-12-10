@@ -99,6 +99,8 @@ export default function BoardPage({ props, boardData }) {
                             </div>
                             <br />
                             <p><strong>{boardDetail.description}</strong></p>
+                            {boardDetail.description2 ? (<p><strong>{boardDetail.description2}</strong></p>) : (<p></p>)
+                }
                             <hr />
                             <h6>Size Range: {boardDetail.dims.range}</h6>
                             <h6>Nose: {boardDetail.dims.Nose}</h6>
