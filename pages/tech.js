@@ -22,8 +22,8 @@ export default function ProfilePage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   const opts = {
-    height: '220',
-    width: '320',
+    height: '320',
+    width: '420',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       // autoplay: 1,
@@ -45,10 +45,10 @@ export default function ProfilePage(props) {
         </p>
         <TechPills />
         <span className="video">
-          <YouTube videoId='NTITDQOKepI' opts={opts} />
+          <YouTube videoId='XjCz_40wXN0' opts={opts} />
         </span>
         <span className="video">
-          <YouTube videoId='9APYuwurKBQ' opts={opts} />
+          <YouTube videoId='NTITDQOKepI' opts={opts} />
         </span>
       </div>
       <Footer />
