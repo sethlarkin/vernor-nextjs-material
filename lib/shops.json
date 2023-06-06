@@ -51,6 +51,13 @@
                     "address": "5863 Traffic Way, Atascadero, CA 93422",
                     "phone": "805-464-2545",
                     "site": ""
+                },
+                {
+                    "id": 8,
+                    "name": "Cal Sup Surf Outlet",
+                    "address": "719 Swift St #16 Santa Cruz, CA 95060",
+                    "phone": "(831) 332 8503"
+
                 }
             ]
         },
