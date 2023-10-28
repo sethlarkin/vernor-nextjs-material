@@ -1,6 +1,24 @@
 {
     "boards": [
         {
+            "id": 31,
+            "name": "The Drifter",
+            "model": "the_drifter",
+            "img": "/img/boards/Drifter.jpg",
+            "logo": "/img/board-models/drifter_logo.jpeg",
+            "description": "The Drifter was designed to pack a high volume of foam into a compact shape. It features a broad outline coupled with a fish-like nose for easy entry into waves. Rather than a swallow tail, it sports a diamond tail, enabling you to position your foot further back for enhanced drive along the shorter rail line. The board has a flat deck and low apex rails, contributing to its excellent paddling capabilities and effortless rail-to-rail transitions. Minimal effort is needed to get the Drifter up to speed; its deep double-barrel concave not only generates rapid acceleration but also offers lift off the back foot and exceptional grip during turns.\n\n", 
+            "dims": {
+                "range": "5'10",
+                "Nose": "19.4",
+                "Middle": "21.6",
+                "Tail": "16.2",
+                "Thickness": "2.63",
+                "Volume": "(5'10): 41 liters"
+            },
+            "eps_price": "899.00",
+            "poly_price": "769.00"
+        },
+        {
             "id": 30,
             "name": "Shapers Choice",
             "model": "shapers_choice",
