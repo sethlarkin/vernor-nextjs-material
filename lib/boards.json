@@ -1,6 +1,24 @@
 {
     "boards": [
         {
+            "id": 32,
+            "name": "Da Bear",
+            "model": "da_bear",
+            "img": "/img/boards/DaBear.png",
+            "logo": "/img/board-models/Da_BearLogo.png",
+            "description": "Introducing the \"Da Bear\" longboard surfboard, designed for surfers who seek to elevate their performance on the waves. This model stands out with its refined, slightly narrower outline, tailoreIntroducing the \"Da Bear\" longboard surfboard, designed for surfers who seek to elevate their performance. This model stands out with its refined, slightly narrower outline, tailored to enhance maneuverability and speed. Crafted for versatility, \"Da Bear\" accommodates any fin setup, which allows it to work in all conditions. From carving on small waves to charging overhead+ waves, this board provides the precision and responsiveness needed for a dynamic surfing experience. With its balanced approach to design, \"Da Bear\" is a solid choice for surfers looking to push their limits while maintaining the classic longboard feel.\n\n", 
+            "dims": {
+                "range": "5'10",
+                "Nose": "19.4",
+                "Middle": "21.6",
+                "Tail": "16.2",
+                "Thickness": "2.63",
+                "Volume": "(5'10): 41 liters"
+            },
+            "eps_price": "1049.00",
+            "poly_price": "899.00"
+        },
+        {
             "id": 31,
             "name": "The Drifter",
             "model": "the_drifter",
