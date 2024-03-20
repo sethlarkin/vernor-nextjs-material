@@ -8,12 +8,12 @@
             "logo": "/img/board-models/Da_BearLogo.png",
             "description": "Introducing the \"Da Bear\" longboard surfboard, designed for surfers who seek to elevate their performance. This model stands out with its refined, slightly narrower outline, tailored to enhance maneuverability and speed. Crafted for versatility, \"Da Bear\" accommodates any fin setup, which allows it to work in all conditions. From carving on small waves to charging overhead+, this board provides the precision and responsiveness needed for leveling up your surfing. With its balanced design, \"Da Bear\" is a solid choice for surfers looking to push their limits while maintaining the longboard feel.\n\n", 
             "dims": {
-                "range": "5'10",
-                "Nose": "19.4",
-                "Middle": "21.6",
-                "Tail": "16.2",
-                "Thickness": "2.63",
-                "Volume": "(5'10): 41 liters"
+                "range": "9'",
+                "Nose": "15.77",
+                "Middle": "22",
+                "Tail": "13.93",
+                "Thickness": "3",
+                "Volume": "(9'): 67 liters"
             },
             "eps_price": "1049.00",
             "poly_price": "899.00"
