@@ -49,7 +49,7 @@ export default function LandingPage(props) {
                 // className="profile"
                 src={Profile}
                 alt="Profile image"
-                height="400px"
+                height="475px"
                 width="350px"
               />
             </GridItem>
