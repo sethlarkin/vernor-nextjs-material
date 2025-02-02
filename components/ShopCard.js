@@ -23,7 +23,7 @@ export default function BoardCard(props) {
                         <address>{props.address}</address>
                         <p>{props.phone}</p>
                         <div style={{ position: "absolute", bottom: 0, left: 40, right: 40 }}>
-                            { props.site != "" &&
+                            { props.site &&
                                 <Button
                                 color="primary"
                                 simple

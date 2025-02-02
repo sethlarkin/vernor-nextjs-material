@@ -18,6 +18,12 @@
                     "site": "www.aquasurfshop.com"
                 },
                 {
+                    "id": 1,
+                    "name": "Cal Sup Outlet",
+                    "address": "1129 Soquel Ave, Santa Cruz, CA 95062",
+                    "phone": "(831) 332-8503"
+                },
+                {
                     "id": 3,
                     "name": "Live Water Surf Shop",
                     "address": "3448 Shoreline Hwy, Stinson Beach, CA",
