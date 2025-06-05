@@ -1,6 +1,24 @@
 {
     "boards": [
         {
+            "id": 33,
+            "name": "Techno Twin",
+            "model": "techno_twin",
+            "img": "/img/boards/TT2.png",
+            "logo": "/img/board-models/TT-logo.png",
+            "description": "Introducing the Techno Twin ! This performance based twin is made for speed & agility. With its parallel outline, bullet nose, flat rocker, pulled in tidy wing-swallow tail, and unique dual exhaust channel out the tail, it will have you going Mach 3 right at takeoff! We pulled elements from many different models in David's lineup to make this board the perfect daily driver twin in your quiver! From knee high to a few feet overhead, you'll be impressed with its control and playfulness. Designed as a twin plus trailer, using Vernor's Naked Viking Twin Trailer fin set. When using this fin set, expect exceptional drive and control and the ability to go vertical in the lip. As an alternative for when the waves are sub-par, use Vernor's Naked Viking Magic Twins as a true twin for speed generation and that addictive free flowing twin fin feel.\nMeant to be ridden short, advanced to intermediate surfers should order it at your height or a few inches shorter. For the intermediate to novice surfer, order it a couple inches or more over your height and add 1/2 in. of width. Foam is your friend! The Techno Twin represents a successful 11 year shaper & surfer relationship & I'm sure you're going to love it!\n-Eric\n",
+           "dims": {
+                "range": "6'",
+                "Nose": "16.47",
+                "Middle": "21.12",
+                "Tail": "15.7",
+                "Thickness": "3.15",
+                "Volume": "43.5 liters"
+            },
+            "eps_price": "869.00",
+            "poly_price": "769.00"
+        },
+        {
             "id": 32,
             "name": "Da Bear",
             "model": "da_bear",

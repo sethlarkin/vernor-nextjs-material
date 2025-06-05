@@ -111,6 +111,7 @@ export default function BoardPage({ props, boardData }) {
                             <p><strong>--------</strong></p>
                             <h4><strong>Prices:</strong></h4>
                             <h6>Epoxy: ${boardDetail.eps_price}</h6>
+                            <h6>Carbon Laminate: $125</h6>
                             <h6>Polyester: ${boardDetail.poly_price}</h6>
                             <h6>With suspension: + $60</h6>
                             <h6>Stringerless carbon strip flex deck!!!: + $30 (available in all models)</h6>
